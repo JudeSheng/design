@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T06:50:18.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="sqk81YSKOIf8EZWQ4kk_" version="14.7.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-06-01T08:15:46.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="xb83oq6t0VBghcRz4sib" version="14.7.2" type="github" pages="8">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-116" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4572,7 +4572,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0YhqoFYHNpn4-s8ogshZ" name="新状态机">
-    <mxGraphModel dx="1538" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-0" />
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-1" parent="xWFtWYH_LF1aDXeCnVnM-0" />
@@ -4831,7 +4831,7 @@
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-45" value="Risk_Reject" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-46" target="xWFtWYH_LF1aDXeCnVnM-54">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220.09" y="1690" />
+              <mxPoint x="220" y="1680" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4873,7 +4873,7 @@
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-52" value="fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-53" target="xWFtWYH_LF1aDXeCnVnM-54">
           <mxGeometry x="0.4763" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460.09" y="1670" />
+              <mxPoint x="440" y="1660" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -4960,11 +4960,11 @@
             <mxPoint x="49" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-69" value="事中风控&lt;br&gt;fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-70" target="xWFtWYH_LF1aDXeCnVnM-54">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-69" value="事中风控fail，void succeed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-53" target="xWFtWYH_LF1aDXeCnVnM-63">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="710.09" y="1530" />
-              <mxPoint x="710.09" y="1530" />
+              <mxPoint x="480" y="1600" />
+              <mxPoint x="941" y="1600" />
             </Array>
           </mxGeometry>
         </mxCell>
