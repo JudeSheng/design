@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T10:18:17.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="EhBJVlb9vjoJ9XuQaVar" version="14.7.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-06-02T02:48:58.876Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="KCDnu3OQ9t2GVcJxGl-q" version="14.7.3" type="github" pages="8">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-228" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5278,7 +5278,7 @@
           <mxGeometry x="420" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-28" value="Trade Order State Machine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
-          <mxGeometry x="159.97" y="40" width="1040.03" height="40" as="geometry" />
+          <mxGeometry x="159.97" y="40" width="1080.03" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-29" value="Payment State Machine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
           <mxGeometry x="160" y="640" width="1080.03" height="40" as="geometry" />
@@ -5324,7 +5324,7 @@
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-36" value="Capture fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-38" target="xWFtWYH_LF1aDXeCnVnM-41" edge="1">
           <mxGeometry x="0.3598" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="680.09" y="830" />
+              <mxPoint x="680" y="840" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -5371,12 +5371,12 @@
           <mxGeometry x="420.09" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-44" value="Refund State Machine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
-          <mxGeometry x="160.06" y="1240" width="839.94" height="40" as="geometry" />
+          <mxGeometry x="160.06" y="1240" width="599.94" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-45" value="Risk_Reject" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-46" target="xWFtWYH_LF1aDXeCnVnM-54" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="1680" />
+              <mxPoint x="220" y="1690" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -5418,7 +5418,7 @@
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-52" value="fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-53" target="xWFtWYH_LF1aDXeCnVnM-54" edge="1">
           <mxGeometry x="0.4763" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="1660" />
+              <mxPoint x="440" y="1670" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -5446,11 +5446,13 @@
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-61" target="xWFtWYH_LF1aDXeCnVnM-62" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-59" value="Review reject，Void succeed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-61" target="xWFtWYH_LF1aDXeCnVnM-62" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-59" value="Review reject，Void succeed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-61" target="xWFtWYH_LF1aDXeCnVnM-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940.06" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="820" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-60" value="Cancel /&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Expire&lt;br&gt;do void&lt;br&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-61" target="xWFtWYH_LF1aDXeCnVnM-43" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -5462,12 +5464,6 @@
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-61" value="PENDING_REVIEW" style="rounded=0;whiteSpace=wrap;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
           <mxGeometry x="880.0600000000001" y="920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-62" value="&lt;span style=&quot;font-size: 11px&quot;&gt;VOIDED&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
-          <mxGeometry x="880.0600000000001" y="800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-63" value="&lt;span style=&quot;font-size: 11px&quot;&gt;VOIDED&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
-          <mxGeometry x="880.59" y="1480" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-64" value="1. 事中风控&lt;br&gt;Review通过 /&amp;nbsp;&lt;br&gt;2. 事中风控&lt;br&gt;Review不通过&lt;br&gt;Void fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-70" target="xWFtWYH_LF1aDXeCnVnM-53" edge="1">
           <mxGeometry x="-0.0769" y="40" relative="1" as="geometry">
             <mxPoint x="490.09" y="1380" as="targetPoint" />
@@ -5478,12 +5474,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-70" target="xWFtWYH_LF1aDXeCnVnM-63" edge="1">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-70" target="xWFtWYH_LF1aDXeCnVnM-54" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="760.09" y="1510" />
-              <mxPoint x="760.09" y="1510" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-66" value="事中/事后风控&lt;br&gt;Review不通过&lt;br&gt;Void succeed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xWFtWYH_LF1aDXeCnVnM-65" vertex="1" connectable="0">
@@ -5505,12 +5498,12 @@
             <mxPoint x="49" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-69" value="事中风控fail，void succeed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-53" target="xWFtWYH_LF1aDXeCnVnM-63" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-69" value="事中风控fail，void succeed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-53" target="xWFtWYH_LF1aDXeCnVnM-54" edge="1">
+          <mxGeometry x="0.4071" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="1600" />
-              <mxPoint x="941" y="1600" />
+              <mxPoint x="480" y="1650" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-70" value="PENDING_REVIEW" style="rounded=0;whiteSpace=wrap;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
