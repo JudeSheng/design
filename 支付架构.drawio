@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T04:18:21.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="wIzRyQL3w9RddDhaVVUt" version="14.8.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-06-25T01:40:30.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ilA-KMyia0cF5iL2Gorw" version="14.8.0" type="github" pages="8">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
-    <mxGraphModel dx="12" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-116" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3842,7 +3842,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qtza9hfaQxqNG8ZvRYPP" name="状态机">
-    <mxGraphModel dx="1666" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1538" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WsTDuKim4CYHqpsbKxE1-0" />
         <mxCell id="WsTDuKim4CYHqpsbKxE1-1" parent="WsTDuKim4CYHqpsbKxE1-0" />
@@ -3987,7 +3987,7 @@
         <mxCell id="WsTDuKim4CYHqpsbKxE1-26" value="Authorized" style="rounded=0;whiteSpace=wrap;html=1;" parent="WsTDuKim4CYHqpsbKxE1-1" vertex="1">
           <mxGeometry x="640" y="281" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WsTDuKim4CYHqpsbKxE1-27" value="Success" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WsTDuKim4CYHqpsbKxE1-1" vertex="1">
+        <mxCell id="WsTDuKim4CYHqpsbKxE1-27" value="Succeeded" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WsTDuKim4CYHqpsbKxE1-1" vertex="1">
           <mxGeometry x="880" y="281" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WsTDuKim4CYHqpsbKxE1-28" value="Cancelled" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WsTDuKim4CYHqpsbKxE1-1" vertex="1">
@@ -5117,7 +5117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0YhqoFYHNpn4-s8ogshZ" name="新状态机">
-    <mxGraphModel dx="1666" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-0" />
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-1" parent="xWFtWYH_LF1aDXeCnVnM-0" />
