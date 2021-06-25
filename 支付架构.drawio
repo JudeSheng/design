@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T01:41:50.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="shijHCvhwXtefhc0pDQF" version="14.8.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-06-25T01:43:35.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="9btf13nLDTO33kUx1-g2" version="14.8.0" type="github" pages="8">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-116" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5117,7 +5117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0YhqoFYHNpn4-s8ogshZ" name="新状态机">
-    <mxGraphModel dx="1538" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1282" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-0" />
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-1" parent="xWFtWYH_LF1aDXeCnVnM-0" />
@@ -5241,7 +5241,7 @@
             <mxPoint x="540" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-23" value="Capture fail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xWFtWYH_LF1aDXeCnVnM-22" vertex="1" connectable="0">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-23" value="Void" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xWFtWYH_LF1aDXeCnVnM-22" vertex="1" connectable="0">
           <mxGeometry x="-0.6701" y="-1" relative="1" as="geometry">
             <mxPoint x="-201" y="-2" as="offset" />
           </mxGeometry>
