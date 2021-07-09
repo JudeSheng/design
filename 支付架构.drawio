@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T01:33:34.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="viPlfFO0yxGZ4h17XEBV" version="14.8.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-07-09T01:48:21.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="3mS2DSu2azLsexXOpaUH" version="14.8.4" type="github" pages="10">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-116" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6340,13 +6340,19 @@
         <mxCell id="9W7vxDDxxtKVJBv8dbck-1" value="项目Owner" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontStyle=0;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="960" y="960" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9W7vxDDxxtKVJBv8dbck-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1oSCqq7E8UGZ24rbZzpE-1" source="9W7vxDDxxtKVJBv8dbck-2" target="9W7vxDDxxtKVJBv8dbck-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9W7vxDDxxtKVJBv8dbck-2" value="技术设计" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontStyle=0;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="1200" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9W7vxDDxxtKVJBv8dbck-3" value="多余时间" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontStyle=0;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+        <mxCell id="9W7vxDDxxtKVJBv8dbck-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1oSCqq7E8UGZ24rbZzpE-1" source="9W7vxDDxxtKVJBv8dbck-3" target="9W7vxDDxxtKVJBv8dbck-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9W7vxDDxxtKVJBv8dbck-3" value="良性生态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontStyle=0;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="1440" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9W7vxDDxxtKVJBv8dbck-4" value="篮球" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontStyle=0;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+        <mxCell id="9W7vxDDxxtKVJBv8dbck-4" value="自主时间" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontStyle=0;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="1680" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
