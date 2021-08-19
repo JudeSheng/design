@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T09:18:02.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="VvHkRBhLps3hmNRgrpzd" version="14.9.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-08-19T09:22:03.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="jLYYBXiE4zaT2ygrLroe" version="14.9.4" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-228" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6500,7 +6500,7 @@
         <mxCell id="fDQoxKki_GWU7o58--dH-7" value="被需要是被动不可控的，带来心理满足感和幸福感&lt;br&gt;被需要和被索取要区分，被需要是能力和意愿范围内的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="-1678.12" y="350.25" width="216.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fDQoxKki_GWU7o58--dH-8" value="尊严、占有欲、控制欲、征服感、贪欲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+        <mxCell id="fDQoxKki_GWU7o58--dH-8" value="贪欲、尊严、占有欲、控制欲、征服感" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="-1030" y="410" width="245" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-10" value="心魔需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
