@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T03:39:47.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="ox-HatQWx52iP3q9_BN5" version="14.9.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-08-19T03:56:24.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="aVFL2Btgfh80WfcGtO6L" version="14.9.4" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-228" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6484,13 +6484,13 @@
           <mxGeometry x="142.5" y="1924" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-5" value="社交需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="200" y="1810" width="80" height="20" as="geometry" />
+          <mxGeometry x="200" y="1820" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-6" value="需要、被需要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="192.5" y="1834" width="90" height="20" as="geometry" />
+          <mxGeometry x="190" y="1850" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fDQoxKki_GWU7o58--dH-7" value="被需要是被动不可控的，带来心理满足感和幸福感、被需要和被索取要区分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="40" y="1854" width="406.25" height="20" as="geometry" />
+        <mxCell id="fDQoxKki_GWU7o58--dH-7" value="被需要是被动不可控的，带来心理满足感和幸福感&lt;br&gt;被需要和被索取要区分，被需要是能力和意愿范围内的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-240" y="1810" width="216.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-8" value="尊严、占有欲、控制欲、征服感、贪欲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="120" y="1770" width="245" height="20" as="geometry" />
@@ -6523,13 +6523,16 @@
           <mxGeometry x="650" y="1930" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-20" value="心魔需求是阻断向上寻找生命意义的泥沼，不能陷入太深，也不能完全摒弃" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-120" y="1730" width="140" height="56" as="geometry" />
+          <mxGeometry x="-110" y="1730" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-21" value="生命的意义在于感受世界" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="-60" y="1652" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-22" value="生命的意义在于自我完善" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="-10" y="1574" width="140" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="fDQoxKki_GWU7o58--dH-23" value="爱情是是一种被需要的重要获取，伴随着占有欲，这种占有欲往往强烈到需要占有他人的整个金字塔" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="481" y="1770" width="140" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
