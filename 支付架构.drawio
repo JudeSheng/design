@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T09:31:12.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="sos85_zZWFG_GHD7SuIH" version="14.9.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-08-20T07:22:36.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="JhV_8d3hJo7EMFdFdWWC" version="14.9.4" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-228" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6065,7 +6065,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w5kTClqYaTIB0cyUE67b" name="人生建模">
-    <mxGraphModel dx="3298" dy="1234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3731" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="1oSCqq7E8UGZ24rbZzpE-0" />
         <mxCell id="1oSCqq7E8UGZ24rbZzpE-1" parent="1oSCqq7E8UGZ24rbZzpE-0" />
@@ -6085,39 +6085,39 @@
           <mxGeometry x="1080" y="0.5" width="680" height="700" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="-160" y="-40" width="760" height="760" as="geometry" />
+          <mxGeometry x="-160" y="-240" width="760" height="760" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-11" value="身体（服务器）" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="155" y="280" width="130" height="360" as="geometry" />
+          <mxGeometry x="155" y="80" width="130" height="360" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" source="mXVWxEx5iJkKPrDTF2JG-7" target="mXVWxEx5iJkKPrDTF2JG-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-7" value="祖先（Master）" style="verticalLabelPosition=bottom;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon1;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="196.75" y="40" width="46.5" height="50" as="geometry" />
+          <mxGeometry x="196.75" y="-160" width="46.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" source="mXVWxEx5iJkKPrDTF2JG-8" target="mXVWxEx5iJkKPrDTF2JG-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-8" value="父母（Branch）" style="verticalLabelPosition=bottom;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon2;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="195" y="160" width="50" height="41" as="geometry" />
+          <mxGeometry x="195" y="-40" width="50" height="41" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-28" value="思考建模" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" source="mXVWxEx5iJkKPrDTF2JG-10" target="mXVWxEx5iJkKPrDTF2JG-26" edge="1">
           <mxGeometry x="0.4667" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="410" />
-              <mxPoint x="220" y="410" />
+              <mxPoint x="220" y="210" />
+              <mxPoint x="220" y="210" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-10" value="基因（源码）" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/crime-and-security-24/64/27-128.png;fillColor=none;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="192.5" y="310" width="55" height="55" as="geometry" />
+          <mxGeometry x="192.5" y="110" width="55" height="55" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-15" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1oSCqq7E8UGZ24rbZzpE-1" source="mXVWxEx5iJkKPrDTF2JG-3" target="mXVWxEx5iJkKPrDTF2JG-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-20" y="344.5" as="sourcePoint" />
-            <mxPoint x="110" y="344.5" as="targetPoint" />
+            <mxPoint x="-20" y="144.5" as="sourcePoint" />
+            <mxPoint x="110" y="144.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-16" value="" style="shape=message;html=1;outlineConnect=0;" parent="mXVWxEx5iJkKPrDTF2JG-15" vertex="1">
@@ -6132,8 +6132,8 @@
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1oSCqq7E8UGZ24rbZzpE-1" source="mXVWxEx5iJkKPrDTF2JG-3" target="mXVWxEx5iJkKPrDTF2JG-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="340" as="sourcePoint" />
-            <mxPoint x="545" y="340.5" as="targetPoint" />
+            <mxPoint x="340" y="140" as="sourcePoint" />
+            <mxPoint x="545" y="140.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-18" value="" style="shape=message;html=1;outlineConnect=0;" parent="mXVWxEx5iJkKPrDTF2JG-17" vertex="1">
@@ -6150,10 +6150,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-26" value="模型" style="verticalLabelPosition=bottom;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon8;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="210.25" y="440" width="19.5" height="50" as="geometry" />
+          <mxGeometry x="210.25" y="240" width="19.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mXVWxEx5iJkKPrDTF2JG-27" value="记忆" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.memory;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="200" y="580" width="40" height="15.2" as="geometry" />
+          <mxGeometry x="200" y="380" width="40" height="15.2" as="geometry" />
         </mxCell>
         <mxCell id="xbCwlyPCOVTTvg6RYKoS-0" value="老婆" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fontStyle=0;fillColor=#e1d5e7;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
           <mxGeometry x="860" y="40" width="120" height="60" as="geometry" />
@@ -6393,220 +6393,277 @@
           <mxGeometry x="930" y="120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/bitsies/128/Heart-128.png" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="280" y="840" width="240" height="240" as="geometry" />
+          <mxGeometry x="280" y="680" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="-80" y="840" width="80" height="240" as="geometry" />
+          <mxGeometry x="-80" y="680" width="80" height="240" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/bitsies/128/Heart-128.png;fillColor=#007FFF;strokeWidth=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="40" y="840" width="240" height="240" as="geometry" />
+          <mxGeometry x="40" y="680" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/twitter-29/512/166_Heart_Love_Like_Twitter-128.png" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="360" y="800" width="40" height="40" as="geometry" />
+          <mxGeometry x="360" y="640" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/twitter-29/512/166_Heart_Love_Like_Twitter-128.png" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="400" y="800" width="40" height="40" as="geometry" />
+          <mxGeometry x="400" y="640" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-17" value="" style="endArrow=none;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="890" as="sourcePoint" />
-            <mxPoint x="400" y="1060" as="targetPoint" />
+            <mxPoint x="400" y="730" as="sourcePoint" />
+            <mxPoint x="400" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-18" value="" style="endArrow=none;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="159.5" y="890" as="sourcePoint" />
-            <mxPoint x="159.5" y="1060" as="targetPoint" />
+            <mxPoint x="159.5" y="730" as="sourcePoint" />
+            <mxPoint x="159.5" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/father-s-day-doodles/32/father_son_day_holding-128.png" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="410" y="900" width="71" height="71" as="geometry" />
+          <mxGeometry x="410" y="740" width="71" height="71" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/father-s-day-doodles/32/father_son_day_holding-128.png" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="80" y="900" width="71" height="71" as="geometry" />
+          <mxGeometry x="80" y="740" width="71" height="71" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-23" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#007FFF;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="85.5" y="1080" width="60" height="120" as="geometry" />
+          <mxGeometry x="85.5" y="920" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-24" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FF3333;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="327.5" y="875.5" width="60" height="120" as="geometry" />
+          <mxGeometry x="327.5" y="715.5" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WzyGhkIuwZgx3N2FT4b4-27" value="1. Live&lt;br&gt;2. Sex&lt;br&gt;3. Money&lt;br&gt;4. Talk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="247.5" y="1000" width="60" height="60" as="geometry" />
+          <mxGeometry x="247.5" y="840" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iib9_b9IO7-V4KqEF4OW-0" value="" style="triangle;whiteSpace=wrap;html=1;fontColor=#000000;direction=north;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1270" y="80" width="720" height="600.5" as="geometry" />
+          <mxGeometry x="-1280" y="-239.5" width="720" height="600.5" as="geometry" />
         </mxCell>
         <mxCell id="iib9_b9IO7-V4KqEF4OW-1" value="" style="endArrow=none;html=1;fontColor=#000000;entryX=0.134;entryY=0.936;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1oSCqq7E8UGZ24rbZzpE-1" target="iib9_b9IO7-V4KqEF4OW-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1224" y="600" as="sourcePoint" />
-            <mxPoint x="-640" y="641" as="targetPoint" />
+            <mxPoint x="-1234" y="280.5" as="sourcePoint" />
+            <mxPoint x="-650" y="321.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iib9_b9IO7-V4KqEF4OW-2" value="生体需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-950" y="620" width="80" height="20" as="geometry" />
+        <mxCell id="iib9_b9IO7-V4KqEF4OW-2" value="生体需求 / 病态需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-991.87" y="290" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iib9_b9IO7-V4KqEF4OW-3" value="" style="endArrow=none;html=1;fontColor=#000000;exitX=0.124;exitY=0.064;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1180" y="522.278" as="sourcePoint" />
-            <mxPoint x="-650" y="521" as="targetPoint" />
+            <mxPoint x="-1185" y="202.02800000000002" as="sourcePoint" />
+            <mxPoint x="-655" y="200.75" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iib9_b9IO7-V4KqEF4OW-4" value="" style="endArrow=none;html=1;fontColor=#000000;" edge="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1130" y="440" as="sourcePoint" />
-            <mxPoint x="-700" y="440" as="targetPoint" />
+            <mxPoint x="-1135" y="120.5" as="sourcePoint" />
+            <mxPoint x="-705" y="120.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iib9_b9IO7-V4KqEF4OW-5" value="" style="endArrow=none;html=1;fontColor=#000000;" edge="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1080" y="360" as="sourcePoint" />
-            <mxPoint x="-740" y="360" as="targetPoint" />
+            <mxPoint x="-1090" y="40.5" as="sourcePoint" />
+            <mxPoint x="-750" y="40.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iib9_b9IO7-V4KqEF4OW-6" value="" style="endArrow=none;html=1;fontColor=#000000;" edge="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1030" y="280" as="sourcePoint" />
-            <mxPoint x="-790" y="280" as="targetPoint" />
+            <mxPoint x="-1040" y="-39.5" as="sourcePoint" />
+            <mxPoint x="-800" y="-39.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iib9_b9IO7-V4KqEF4OW-7" value="" style="endArrow=none;html=1;fontColor=#000000;" edge="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-980" y="201" as="sourcePoint" />
-            <mxPoint x="-840" y="201" as="targetPoint" />
+            <mxPoint x="-990" y="-118.5" as="sourcePoint" />
+            <mxPoint x="-850" y="-118.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-2" value="摄取、释放" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1030" y="648" width="240" height="20" as="geometry" />
+          <mxGeometry x="-1042.5" y="317.5" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-3" value="安全需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-952.5" y="540" width="80" height="20" as="geometry" />
+          <mxGeometry x="-962.5" y="220.5" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-4" value="安抚：恐惧、焦虑、空虚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1007.5" y="564" width="190" height="20" as="geometry" />
+          <mxGeometry x="-1017.5" y="244.5" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fDQoxKki_GWU7o58--dH-5" value="社交需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-950" y="460" width="80" height="20" as="geometry" />
+        <mxCell id="fDQoxKki_GWU7o58--dH-5" value="社交需求 / 心魔需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-997.5" y="131" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-6" value="需要、被需要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-960" y="490" width="90" height="20" as="geometry" />
+          <mxGeometry x="-965" y="159.43" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-7" value="被需要是被动不可控的，带来心理满足感和幸福感&lt;br&gt;被需要和被索取要区分，被需要是能力和意愿范围内的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1678.12" y="350.25" width="216.25" height="60" as="geometry" />
+          <mxGeometry x="-1688.12" y="30.75" width="216.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fDQoxKki_GWU7o58--dH-8" value="贪欲、尊严、占有欲、控制欲、征服感" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1030" y="410" width="245" height="20" as="geometry" />
+        <mxCell id="fDQoxKki_GWU7o58--dH-8" value="尊严、认可、权利、名誉" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1040" y="90.5" width="245" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fDQoxKki_GWU7o58--dH-10" value="心魔需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-950" y="380" width="80" height="20" as="geometry" />
+        <mxCell id="fDQoxKki_GWU7o58--dH-10" value="社会需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-960" y="60.5" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fDQoxKki_GWU7o58--dH-11" value="感知需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-952.5" y="300" width="80" height="20" as="geometry" />
+        <mxCell id="fDQoxKki_GWU7o58--dH-11" value="感知需求 - 感受当下" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-991.87" y="-20" width="152.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-12" value="求知、审美、享受、快乐、刺激" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1029.37" y="330.25" width="245" height="20" as="geometry" />
+          <mxGeometry x="-1039.37" y="10.75" width="245" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fDQoxKki_GWU7o58--dH-13" value="自我实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-950" y="220" width="80" height="20" as="geometry" />
+        <mxCell id="fDQoxKki_GWU7o58--dH-13" value="自我实现 - 憧憬未来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-995.62" y="-99.5" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fDQoxKki_GWU7o58--dH-14" value="感悟、创作、提升、传承" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1032.5" y="250" width="245" height="20" as="geometry" />
+        <mxCell id="fDQoxKki_GWU7o58--dH-14" value="感悟、创作、提升、完善、传承" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1042.5" y="-69.5" width="245" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-15" value="超我需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-950" y="160" width="80" height="20" as="geometry" />
+          <mxGeometry x="-960" y="-159.5" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-17" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;生理需求&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;fontColor=#808080;direction=west;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-550" y="480" width="50" height="160" as="geometry" />
+          <mxGeometry x="-560" y="160.5" width="50" height="160" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-18" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;自我需求&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;fontColor=#808080;direction=west;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-710" y="240" width="50" height="160" as="geometry" />
+          <mxGeometry x="-720" y="-79.5" width="50" height="160" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-19" value="生理需求必须被满足，否则不存在生命的意义。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-500" y="570" width="140" height="56" as="geometry" />
+          <mxGeometry x="-510" y="250.5" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-20" value="心魔需求是阻断向上寻找生命意义的泥沼，不能陷入太深，也不能完全摒弃" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1260" y="370" width="140" height="56" as="geometry" />
+          <mxGeometry x="-1270" y="50.5" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-21" value="生命的意义在于感受世界" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1210" y="292" width="140" height="56" as="geometry" />
+          <mxGeometry x="-1220" y="-27.5" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-22" value="生命的意义在于自我完善" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1160" y="214" width="140" height="56" as="geometry" />
+          <mxGeometry x="-1170" y="-105.5" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-23" value="爱情是是一种被需要的重要获取，伴随着占有欲，这种占有欲往往强烈到需要占有他人的整个金字塔" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-669" y="410" width="140" height="56" as="geometry" />
+          <mxGeometry x="-679" y="90.5" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-24" value="需要、被需要" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;labelBorderColor=none;labelBackgroundColor=none;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1790" y="419.6199999999999" width="120" height="39.75" as="geometry" />
+          <mxGeometry x="-1800" y="100.11999999999989" width="120" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-25" value="需要、被需要" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1630" y="419.6199999999999" width="120" height="39.75" as="geometry" />
+          <mxGeometry x="-1640" y="100.11999999999989" width="120" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-27" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;fontSize=15;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1664" y="431.3699999999999" width="30" height="18" as="geometry" />
+          <mxGeometry x="-1674" y="111.86999999999989" width="30" height="18" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-28" value="相爱" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1470" y="420.5" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1480" y="101" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-30" value="需要、不被需要" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;labelBorderColor=none;labelBackgroundColor=none;strokeColor=#000000;dashed=1;fontSize=12;fontStyle=0" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1790" y="469.6199999999999" width="120" height="39.75" as="geometry" />
+          <mxGeometry x="-1800" y="150.1199999999999" width="120" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-31" value="被需要" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1630" y="469.6199999999999" width="120" height="39.75" as="geometry" />
+          <mxGeometry x="-1640" y="150.1199999999999" width="120" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-34" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1665" y="480.05999999999995" width="32" height="18.87" as="geometry" />
+          <mxGeometry x="-1675" y="160.55999999999995" width="32" height="18.87" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;需要、不被需要&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;labelBorderColor=none;labelBackgroundColor=none;strokeColor=#000000;dashed=1;fontSize=12;fontStyle=0" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1790" y="519.3699999999999" width="120" height="39.75" as="geometry" />
+          <mxGeometry x="-1800" y="199.8699999999999" width="120" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-37" value="意愿之外" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1630" y="519.3699999999999" width="120" height="39.75" as="geometry" />
+          <mxGeometry x="-1640" y="199.8699999999999" width="120" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-39" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1665" y="529.81" width="32" height="18.87" as="geometry" />
+          <mxGeometry x="-1675" y="210.30999999999995" width="32" height="18.87" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-44" value="相爱" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1430" y="420.5" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1440" y="101" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-45" value="契合" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1390" y="419.6199999999999" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1400" y="100.11999999999989" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-46" value="契合" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1350" y="419.6199999999999" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1360" y="100.11999999999989" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-48" value="添狗" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1470" y="470.5" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1480" y="151" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-49" value="海王" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1430" y="470.5" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1440" y="151" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-50" value="被爱" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1390" y="469.6199999999999" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1400" y="150.1199999999999" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-51" value="被爱" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1350" y="469.6199999999999" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1360" y="150.1199999999999" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-52" value="单恋" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1470" y="520.25" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1480" y="200.75" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-53" value="拒绝" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1430" y="520.25" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1440" y="200.75" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-54" value="不满" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1390" y="519.3699999999999" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1400" y="199.8699999999999" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-55" value="&lt;span&gt;拒绝&lt;/span&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;strokeColor=#000000;dashed=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1350" y="519.3699999999999" width="40" height="39.75" as="geometry" />
+          <mxGeometry x="-1360" y="199.8699999999999" width="40" height="39.75" as="geometry" />
         </mxCell>
         <mxCell id="fDQoxKki_GWU7o58--dH-56" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelBackgroundColor=none;fontSize=12;fontColor=#808080;fillColor=none;direction=west;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="-1280" y="440" width="120" height="100" as="geometry" />
+          <mxGeometry x="-1290" y="120.5" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-0" value="工作" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#10739e;fillColor=#b1ddf0;fontStyle=1;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1640" y="960" width="1280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-1" value="占有欲、控制欲、征服欲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1039.37" y="179.43" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-2" value="非健康生体需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1040" y="338.5" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-3" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1640" y="860" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-4" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;strokeColor=#000000;fillColor=none;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1200" y="860" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-5" value="&lt;span&gt;自我实现&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-760" y="860" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-8" value="生理需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1471.87" y="880" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-12" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1200" y="860" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/finance-4-6/512/finance-money-dollar-06-128.png;fontSize=18;fontColor=#000000;strokeColor=#000000;fillColor=none;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1540" y="870.25" width="39.5" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/finance-4-6/512/finance-money-dollar-06-128.png;fontSize=18;fontColor=#000000;strokeColor=#000000;fillColor=none;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1119.75" y="870.25" width="39.5" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-15" value="&lt;span style=&quot;font-size: 15px ; font-weight: 700&quot;&gt;感受当下&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1000" y="860" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-10" value="感知需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1055" y="880" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-19" value="&lt;span style=&quot;font-size: 15px ; font-weight: 700&quot;&gt;感受当下&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-560" y="800" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-20" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-760" y="800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/finance-4-6/512/finance-money-dollar-06-128.png;fontSize=18;fontColor=#000000;strokeColor=#000000;fillColor=none;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-690" y="800.25" width="39.5" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-22" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;fontColor=#808080;direction=south;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1640" y="795" width="640" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-27" value="技术能力、产品知识、&lt;br&gt;面试技术、工作履历&lt;br&gt;沟通协调、管理能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=15;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1480" y="680" width="320" height="100.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-28" value="自我实现包括：完善项目、业务成功、改善乱局&lt;br&gt;完成自我实现更多要求：协调沟通、管理能力、手段&lt;br&gt;理想基础：一个健康有希望的业务、项目和团队、&lt;br&gt;或者尝试改善这个团队和项目" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=15;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-740" y="679.5" width="370" height="100.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-29" value="技术、设计、产品&lt;br&gt;以及其他喜欢做的事情&lt;br&gt;工作时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-950" y="779.5" width="140" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
