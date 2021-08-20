@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T07:22:36.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="JhV_8d3hJo7EMFdFdWWC" version="14.9.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-08-20T07:29:08.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="XrFkIttFzxQI9UPXSUXg" version="14.9.4" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-228" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6065,7 +6065,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w5kTClqYaTIB0cyUE67b" name="人生建模">
-    <mxGraphModel dx="3731" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="7192" dy="3736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="1oSCqq7E8UGZ24rbZzpE-0" />
         <mxCell id="1oSCqq7E8UGZ24rbZzpE-1" parent="1oSCqq7E8UGZ24rbZzpE-0" />
@@ -6664,6 +6664,15 @@
         </mxCell>
         <mxCell id="nq-tOrKGvkEFBJliKThI-29" value="技术、设计、产品&lt;br&gt;以及其他喜欢做的事情&lt;br&gt;工作时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
           <mxGeometry x="-950" y="779.5" width="140" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-31" value="当前状况" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1640" y="580" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-32" value="&lt;span&gt;当前状况&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-1080" y="580" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nq-tOrKGvkEFBJliKThI-33" value="&lt;span&gt;当前状况&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="-560" y="580" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
