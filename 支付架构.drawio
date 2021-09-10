@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T03:16:57.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="bRRLMag4CXovsSWYo4ki" version="15.1.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-09-10T13:08:34.009Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="uBgxfxYGuPicUJ3KaSxo" version="15.1.4" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
-    <mxGraphModel dx="-356" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-232" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6125,7 +6125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w5kTClqYaTIB0cyUE67b" name="人生建模">
-    <mxGraphModel dx="3750" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3422" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="1oSCqq7E8UGZ24rbZzpE-0" />
         <mxCell id="1oSCqq7E8UGZ24rbZzpE-1" parent="1oSCqq7E8UGZ24rbZzpE-0" />
@@ -6736,6 +6736,9 @@
         </mxCell>
         <mxCell id="nq-tOrKGvkEFBJliKThI-34" value="&lt;span style=&quot;font-size: 18px&quot;&gt;当前状况&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
           <mxGeometry x="-1080" y="520" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qI8iojmQxcuZwEmSw1Fw-0" value="基因与大脑&lt;br&gt;资本是人类社会的大脑&lt;br&gt;基因有没有自我意识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="140" y="-540" width="400" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
