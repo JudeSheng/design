@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T13:22:06.063Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="d-smuvP6SiZF4X91_lm2" version="15.1.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-09-10T13:34:50.819Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="7HdOsSFgvN8gukKoo3vw" version="15.1.4" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-232" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6737,8 +6737,8 @@
         <mxCell id="nq-tOrKGvkEFBJliKThI-34" value="&lt;span style=&quot;font-size: 18px&quot;&gt;当前状况&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
           <mxGeometry x="-1080" y="520" width="720" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qI8iojmQxcuZwEmSw1Fw-0" value="基因与大脑&lt;br&gt;基因是大脑的非自我意识&lt;br&gt;基因有没有自我意识和非自我意识&lt;br&gt;记忆和逻辑能力，大脑感知能力是大脑的自我意识&lt;br&gt;资本是人类社会的大脑&lt;br&gt;资本有没有自我意识和非自我意识&lt;br&gt;基因和资本都找到存在下去的方法，人类能找到吗&lt;br&gt;不是每个人都有能力去追求永生，但是人类应该去追求，每个人都需要出力&lt;br&gt;人类通过移植记忆逻辑能力感知能力到机器人得到永生&lt;br&gt;人类通过移植记忆到另一个大脑得到永生" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
-          <mxGeometry x="140" y="-540" width="400" height="130" as="geometry" />
+        <mxCell id="qI8iojmQxcuZwEmSw1Fw-0" value="基因与大脑&lt;br&gt;基因是大脑的非自我意识&lt;br&gt;基因有没有自我意识和非自我意识&lt;br&gt;记忆和逻辑能力，大脑感知能力是大脑的自我意识&lt;br&gt;资本是人类社会的大脑&lt;br&gt;资本有没有自我意识和非自我意识&lt;br&gt;基因和资本都找到存在下去的方法，人类能找到吗&lt;br&gt;不是每个人都有能力去追求永生，但是人类应该去追求，每个人都需要出力&lt;br&gt;人类通过移植记忆逻辑能力感知能力到机器人得到永生&lt;br&gt;人类通过移植记忆到另一个大脑得到永生&lt;br&gt;人类有了永生能力后就会追求永生资源，人类会不会由于资源有限而无限害怕死亡，导致无限期焦虑&lt;br&gt;人类会不会在争夺资源的过程导致毁灭&lt;br&gt;人类会开始寻找无限资源的永生&lt;br&gt;人类找到类似无限资源的永生后会和基因抢夺资源，从而导致基因人的灭绝（机器永生）&lt;br&gt;人类找到类似无限资源的永生后会导致基因停滞不前，可能会由于不进化被淘汰（生物永生）&lt;br&gt;人类需要寻找进化永生。&lt;br&gt;个人在永生之前追求什么？天（基因）人合一？&lt;br&gt;我到底包不包括我的基因，我需要战胜基因吗，我离开了基因是不是就是舍弃了感知。&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1oSCqq7E8UGZ24rbZzpE-1">
+          <mxGeometry x="196.75" y="-680" width="533.25" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
