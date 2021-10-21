@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T10:16:13.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="zDjyZSdOowOrcUrEvNzS" version="15.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-10-21T10:18:05.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ODF0ZCWG1SsSz_L0ttgi" version="15.2.9" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="942" dy="2837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8644,7 +8644,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GMNTdViUPYvXZoJrD272-2" value="收单层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
+        <mxCell id="GMNTdViUPYvXZoJrD272-2" value="收单层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
           <mxGeometry x="3880" y="320" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QzB-Snu_MWBnkG8yScwG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JexkjVPrE-Y2i-vnMeuV-1" source="GMNTdViUPYvXZoJrD272-3" target="GMNTdViUPYvXZoJrD272-4">
@@ -8663,22 +8663,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GMNTdViUPYvXZoJrD272-3" value="支付层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
+        <mxCell id="GMNTdViUPYvXZoJrD272-3" value="支付层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
           <mxGeometry x="3960" y="440" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QzB-Snu_MWBnkG8yScwG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JexkjVPrE-Y2i-vnMeuV-1" source="GMNTdViUPYvXZoJrD272-4" target="GMNTdViUPYvXZoJrD272-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GMNTdViUPYvXZoJrD272-4" value="金融网络" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
+        <mxCell id="GMNTdViUPYvXZoJrD272-4" value="金融网络" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
           <mxGeometry x="3880" y="560" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GMNTdViUPYvXZoJrD272-5" value="商户通知" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
+        <mxCell id="GMNTdViUPYvXZoJrD272-5" value="商户通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
           <mxGeometry x="3760" y="220" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GMNTdViUPYvXZoJrD272-6" value="账务系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
           <mxGeometry x="3760" y="440" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GMNTdViUPYvXZoJrD272-9" value="会员体系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
+        <mxCell id="GMNTdViUPYvXZoJrD272-9" value="会员体系" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
           <mxGeometry x="4320" y="220" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GMNTdViUPYvXZoJrD272-10" value="清分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
@@ -8698,7 +8698,7 @@
         <mxCell id="QzB-Snu_MWBnkG8yScwG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JexkjVPrE-Y2i-vnMeuV-1" source="QzB-Snu_MWBnkG8yScwG-0" target="GMNTdViUPYvXZoJrD272-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QzB-Snu_MWBnkG8yScwG-0" value="ShopPay" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
+        <mxCell id="QzB-Snu_MWBnkG8yScwG-0" value="ShopPay" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JexkjVPrE-Y2i-vnMeuV-1">
           <mxGeometry x="4320" y="360" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="QzB-Snu_MWBnkG8yScwG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JexkjVPrE-Y2i-vnMeuV-1" source="QzB-Snu_MWBnkG8yScwG-13" target="GMNTdViUPYvXZoJrD272-0">
