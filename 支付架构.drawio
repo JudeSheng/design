@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T09:29:43.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="h-Tno0jSgpBxeAiRuWtR" version="15.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-10-22T09:49:28.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="bmy_koYjlmVzUVy63xsy" version="15.2.9" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="942" dy="2837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5224,13 +5224,13 @@
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-28" value="Trade Order State Machine（ToC）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
           <mxGeometry x="160" y="120" width="840" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-29" value="Payment State Machine（ToB）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-29" value="Payment State Machine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
           <mxGeometry x="159.97" y="680" width="1080.03" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-30" value="Auth 3D / &lt;br&gt;QR Code /&amp;nbsp;&lt;br&gt;online banking" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-34" target="xWFtWYH_LF1aDXeCnVnM-77" edge="1">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-30" value="Auth 3D" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-34" target="xWFtWYH_LF1aDXeCnVnM-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-31" value="Auth 2D succeed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-34" target="xWFtWYH_LF1aDXeCnVnM-38" edge="1">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-31" value="Auth 2D succeed&lt;br&gt;QR Code generated&lt;br&gt;Payment Code generated&lt;br&gt;Payment Url generated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-34" target="xWFtWYH_LF1aDXeCnVnM-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="219.97" y="800" />
@@ -5265,7 +5265,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-36" value="Capture fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-38" target="xWFtWYH_LF1aDXeCnVnM-41" edge="1">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-36" value="payment fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-38" target="xWFtWYH_LF1aDXeCnVnM-41" edge="1">
           <mxGeometry x="0.3598" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="679.97" y="880" />
@@ -5289,7 +5289,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-38" value="AUTHORIZED&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-38" value="AWAITING&lt;br&gt;_PAYMENT&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
           <mxGeometry x="640.0300000000001" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FF3333;fontColor=#000000;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-34" target="xWFtWYH_LF1aDXeCnVnM-41" edge="1">
@@ -5300,7 +5300,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-40" value="Risk_Reject&lt;br&gt;Auth 2D/3D fail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="xWFtWYH_LF1aDXeCnVnM-39" vertex="1" connectable="0">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-40" value="Risk_Reject&lt;br&gt;Auth 2D/3D fail&lt;br&gt;generate fail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="xWFtWYH_LF1aDXeCnVnM-39" vertex="1" connectable="0">
           <mxGeometry x="-0.1456" relative="1" as="geometry">
             <mxPoint x="52" as="offset" />
           </mxGeometry>
@@ -5443,7 +5443,7 @@
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-72" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;SUCCEEDED&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
           <mxGeometry x="520.1800000000001" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-73" value="3D Authentication fail /&lt;br&gt;QR Code / OnlineBanking payment fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-77" target="xWFtWYH_LF1aDXeCnVnM-41" edge="1">
+        <mxCell id="xWFtWYH_LF1aDXeCnVnM-73" value="3D Authentication fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-77" target="xWFtWYH_LF1aDXeCnVnM-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460.03000000000003" y="890" />
