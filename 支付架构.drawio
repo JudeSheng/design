@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T04:41:26.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="71lkFgfyhHgfJQ4O4LKu" version="15.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-10-25T04:44:17.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="El5EqU4vAta8MXkMzBHX" version="15.2.9" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="942" dy="2837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5570,7 +5570,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vx4GHWkj-mhu3jMRccca-4" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Payment_Success_Event&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xWFtWYH_LF1aDXeCnVnM-1" source="Vx4GHWkj-mhu3jMRccca-5" target="Vx4GHWkj-mhu3jMRccca-26">
-          <mxGeometry x="-0.7209" relative="1" as="geometry">
+          <mxGeometry x="0.2555" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="240.06" y="1310" />
             </Array>
@@ -5631,9 +5631,6 @@
         </mxCell>
         <mxCell id="Vx4GHWkj-mhu3jMRccca-26" value="SUCCEEDED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="xWFtWYH_LF1aDXeCnVnM-1">
           <mxGeometry x="560.06" y="1280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UiL8gLlFa30GekMBo6Jv-0" value="&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;2D/3D success&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; text-align: center&quot;&gt;&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;generate success&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontColor=#000000;fillColor=#D4E1F5;" vertex="1" parent="xWFtWYH_LF1aDXeCnVnM-1">
-          <mxGeometry x="379.59" y="1200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UiL8gLlFa30GekMBo6Jv-2" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Payment_Event&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;elbow=vertical;" edge="1" parent="xWFtWYH_LF1aDXeCnVnM-1" source="Vx4GHWkj-mhu3jMRccca-10" target="Vx4GHWkj-mhu3jMRccca-10">
           <mxGeometry y="20" relative="1" as="geometry">
@@ -5696,7 +5693,7 @@
         <mxCell id="UiL8gLlFa30GekMBo6Jv-25" value="Risk State Machine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xWFtWYH_LF1aDXeCnVnM-1">
           <mxGeometry x="158.57000000000005" y="1400" width="480" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UiL8gLlFa30GekMBo6Jv-26" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center&quot;&gt;CONFIRM_FAILED&lt;br&gt;PAYMENT_FAILED&lt;br&gt;EXPIRED&lt;br&gt;CANCELLED&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;RISK_&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;REJECTED_PENDING&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;RISK_&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;REJECTED_PAYMENT&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontColor=#000000;fillColor=#D4E1F5;" vertex="1" parent="xWFtWYH_LF1aDXeCnVnM-1">
+        <mxCell id="UiL8gLlFa30GekMBo6Jv-26" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center&quot;&gt;CONFIRM_FAILED&lt;br&gt;PAYMENT_FAILED&lt;br&gt;EXPIRED&lt;br&gt;CANCELLED&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;RISK_&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;REJECTED_PENDING&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;RISK_&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;REJECTED_PAYMENT&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontColor=#FF0000;fillColor=#D4E1F5;" vertex="1" parent="xWFtWYH_LF1aDXeCnVnM-1">
           <mxGeometry x="690" y="900" width="169.94" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Vc9QZ-vzQ9gD1YE20z8k-12" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Confirm_Event&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;elbow=vertical;" edge="1" parent="xWFtWYH_LF1aDXeCnVnM-1" source="Vx4GHWkj-mhu3jMRccca-5" target="Vx4GHWkj-mhu3jMRccca-5">
@@ -5712,6 +5709,9 @@
         </mxCell>
         <mxCell id="Vc9QZ-vzQ9gD1YE20z8k-20" value="Refund" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#82b366;fillColor=#d5e8d4;dashed=1;" vertex="1" parent="xWFtWYH_LF1aDXeCnVnM-1">
           <mxGeometry x="340.09" y="1010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc9QZ-vzQ9gD1YE20z8k-21" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center&quot;&gt;CREATED&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;CUSTOMER_ACTION&lt;br&gt;&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontColor=#FF0000;fillColor=#D4E1F5;" vertex="1" parent="xWFtWYH_LF1aDXeCnVnM-1">
+          <mxGeometry x="110" y="1200" width="129.92" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
