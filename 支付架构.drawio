@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T07:01:37.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="vdyrgILjRw-s3feau-z3" version="15.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-10-25T07:04:42.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="mR5IlSjGe64LCmtXF_Gr" version="15.2.9" type="github" pages="11">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="942" dy="2837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5400,20 +5400,6 @@
             <mxPoint x="80" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-53" target="xWFtWYH_LF1aDXeCnVnM-70" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1030.18" y="980" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1230.18" y="1100" />
-              <mxPoint x="1230.18" y="1100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-51" value="refund 成功通知前&lt;br&gt;risk pending review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xWFtWYH_LF1aDXeCnVnM-50" vertex="1" connectable="0">
-          <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="9" y="-20" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-53" value="&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;CREATED&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
           <mxGeometry x="880.06" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
@@ -5423,57 +5409,10 @@
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-55" value="FAILED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
           <mxGeometry x="160.06" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-64" value="1. 事中风控&lt;br&gt;Review通过 /&amp;nbsp;&lt;br&gt;2. 事中风控&lt;br&gt;Review不通过&lt;br&gt;Void fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-70" target="xWFtWYH_LF1aDXeCnVnM-53" edge="1">
-          <mxGeometry x="-0.0769" y="40" relative="1" as="geometry">
-            <mxPoint x="1090.18" y="980" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1210.18" y="1120" />
-              <mxPoint x="1210.18" y="1120" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-70" target="xWFtWYH_LF1aDXeCnVnM-54" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-66" value="事中/事后风控&lt;br&gt;Review不通过&lt;br&gt;Void succeed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xWFtWYH_LF1aDXeCnVnM-65" vertex="1" connectable="0">
-          <mxGeometry x="0.0085" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-70" target="xWFtWYH_LF1aDXeCnVnM-72" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340.19" y="820" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1330.18" y="1040" />
-              <mxPoint x="1330.18" y="1040" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-68" value="1. 事后风控&lt;br&gt;Review通过 /&amp;nbsp;&lt;br&gt;2. 事后风控&lt;br&gt;Review不通过&lt;br&gt;Void fail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xWFtWYH_LF1aDXeCnVnM-67" vertex="1" connectable="0">
-          <mxGeometry x="-0.0429" y="-1" relative="1" as="geometry">
-            <mxPoint x="49" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-69" value="Risk_Reject&lt;br&gt;事中风控fail，void succeed&lt;br&gt;返回失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-53" target="xWFtWYH_LF1aDXeCnVnM-54" edge="1">
           <mxGeometry x="0.4071" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="1270" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-70" value="PENDING_REVIEW" style="rounded=0;whiteSpace=wrap;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" vertex="1">
-          <mxGeometry x="1240.18" y="1080" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xWFtWYH_LF1aDXeCnVnM-71" value="&lt;font color=&quot;#ff0000&quot;&gt;refund成功后risk pending review&lt;br&gt;（可以不要）&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xWFtWYH_LF1aDXeCnVnM-1" source="xWFtWYH_LF1aDXeCnVnM-72" target="xWFtWYH_LF1aDXeCnVnM-70" edge="1">
-          <mxGeometry y="-30" relative="1" as="geometry">
-            <mxPoint x="1260.19" y="830" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1260.18" y="1050" />
-              <mxPoint x="1260.18" y="1050" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
