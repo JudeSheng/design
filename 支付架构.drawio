@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T02:06:37.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="j3aSC0TwWOFK5XLe082y" version="15.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-10-27T02:49:03.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="7PDRmkS6SUskoG8fa_Ay" version="15.2.9" type="github" pages="9">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="1591" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -594,7 +594,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jRmJMZqvgI9TjXQ9TuZf" name="模型关系图">
-    <mxGraphModel dx="465" dy="-282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1597" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8s_jQDS1ty3zFgQ5Uoqw-0" />
         <mxCell id="8s_jQDS1ty3zFgQ5Uoqw-1" parent="8s_jQDS1ty3zFgQ5Uoqw-0" />
@@ -687,27 +687,6 @@
         </mxCell>
         <mxCell id="XNFXcEp_cDb4eMdIIpbz-2" value="Cancel&lt;br&gt;Directive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
           <mxGeometry x="1800.5" y="1420" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OobZt-tOK6YjT2AbD1qW-0" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1280" y="1880" width="120" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="OobZt-tOK6YjT2AbD1qW-1" value="Confirm&lt;br&gt;Directive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1440" y="2040" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OobZt-tOK6YjT2AbD1qW-2" value="Cancel&lt;br&gt;Directive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1440" y="2120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OobZt-tOK6YjT2AbD1qW-3" value="Payment&lt;br&gt;Directives" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1440" y="2200" width="119" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OobZt-tOK6YjT2AbD1qW-4" value="Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1440" y="1880" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OobZt-tOK6YjT2AbD1qW-5" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;PaymentMethod&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1440" y="1960" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OobZt-tOK6YjT2AbD1qW-6" value="Refunds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1440" y="2280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
