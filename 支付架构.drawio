@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T02:36:57.541Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="-Dr9jRPwlvDSxbLeLk7q" version="15.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-10-28T07:46:49.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Xa6p_7w0omlogVHoLGjs" version="15.2.9" type="github" pages="9">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
-    <mxGraphModel dx="1591" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1911" dy="3012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -594,7 +594,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jRmJMZqvgI9TjXQ9TuZf" name="模型关系图">
-    <mxGraphModel dx="1597" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="966" dy="18" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8s_jQDS1ty3zFgQ5Uoqw-0" />
         <mxCell id="8s_jQDS1ty3zFgQ5Uoqw-1" parent="8s_jQDS1ty3zFgQ5Uoqw-0" />
@@ -614,25 +614,25 @@
           <mxGeometry x="1440" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BbMMKZeZY75KtoUcchJx-6" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;PaymentMethod&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1640.5" y="1080" width="120" height="220" as="geometry" />
+          <mxGeometry x="2080" y="1080" width="120" height="220" as="geometry" />
         </mxCell>
         <mxCell id="BbMMKZeZY75KtoUcchJx-7" value="Card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1800.5" y="1080" width="119" height="40" as="geometry" />
+          <mxGeometry x="2240" y="1080" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BbMMKZeZY75KtoUcchJx-8" value="3DS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1959.5" y="1080" width="80" height="40" as="geometry" />
+          <mxGeometry x="2399" y="1080" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BbMMKZeZY75KtoUcchJx-9" value="QrCode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1800.5" y="1140" width="119" height="40" as="geometry" />
+          <mxGeometry x="2240" y="1140" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BbMMKZeZY75KtoUcchJx-11" value="Wallet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1800.5" y="1200" width="119" height="40" as="geometry" />
+          <mxGeometry x="2240" y="1200" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BbMMKZeZY75KtoUcchJx-12" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;p id=&quot;u03bc73b0&quot; class=&quot;ne-p&quot; style=&quot;margin: 0 ; padding: 0 ; min-height: 24px&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;Online&lt;br&gt;Banking&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1800.5" y="1260" width="119" height="40" as="geometry" />
+          <mxGeometry x="2240" y="1260" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BbMMKZeZY75KtoUcchJx-20" value="Refund&lt;br&gt;Directive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1800.5" y="1360" width="120" height="40" as="geometry" />
+          <mxGeometry x="1800.5" y="1240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BbMMKZeZY75KtoUcchJx-24" value="&lt;div class=&quot;lake-content&quot;&gt;TradeOrder&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
           <mxGeometry x="760" y="1080" width="120" height="260" as="geometry" />
@@ -662,31 +662,43 @@
           <mxGeometry x="920" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3AkoI5hamn19EesvyZSJ-13" value="Refunds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1640" y="1360" width="120" height="100" as="geometry" />
+          <mxGeometry x="1640" y="1240" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zePtc9cjzt53_U4L0Lny-0" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;PaymentMethod&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
           <mxGeometry x="1440" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zePtc9cjzt53_U4L0Lny-1" value="Directive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1640" y="1520" width="120" height="220" as="geometry" />
+          <mxGeometry x="1640" y="1400" width="120" height="220" as="geometry" />
         </mxCell>
         <mxCell id="zePtc9cjzt53_U4L0Lny-2" value="Pre Risk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1799.5" y="1520" width="119" height="40" as="geometry" />
+          <mxGeometry x="1799.5" y="1400" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zePtc9cjzt53_U4L0Lny-3" value="Channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1799.5" y="1640" width="119" height="40" as="geometry" />
+          <mxGeometry x="1799.5" y="1520" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zePtc9cjzt53_U4L0Lny-4" value="Error" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1799.5" y="1700" width="119" height="40" as="geometry" />
+          <mxGeometry x="1799.5" y="1580" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mbeyZUz3GLOSclgLCrpl-0" value="Refunds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
           <mxGeometry x="1440" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kyQSDAXP5foX_5MwV6Cb-0" value="Post Risk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1800.5" y="1580" width="119" height="40" as="geometry" />
+          <mxGeometry x="1800.5" y="1460" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XNFXcEp_cDb4eMdIIpbz-2" value="Cancel&lt;br&gt;Directive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
-          <mxGeometry x="1800.5" y="1420" width="120" height="40" as="geometry" />
+          <mxGeometry x="1800.5" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWbrGtggUFjd0U6voOmm-0" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;PaymentMethod&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
+          <mxGeometry x="1640" y="1080" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OWbrGtggUFjd0U6voOmm-1" value="Card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
+          <mxGeometry x="1800" y="1080" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWbrGtggUFjd0U6voOmm-2" value="3DS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
+          <mxGeometry x="1959" y="1080" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWbrGtggUFjd0U6voOmm-3" value="Apms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8s_jQDS1ty3zFgQ5Uoqw-1">
+          <mxGeometry x="1800" y="1140" width="119" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1135,7 +1147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rrcISnkZzYZ5EXY73vot" name="DDD">
-    <mxGraphModel dx="6181" dy="3700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2596" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JexkjVPrE-Y2i-vnMeuV-0" />
         <mxCell id="JexkjVPrE-Y2i-vnMeuV-1" parent="JexkjVPrE-Y2i-vnMeuV-0" />
@@ -2302,7 +2314,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3-hzUxiAn3FQYgzLFAj1" name="开发工具">
-    <mxGraphModel dx="2125" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zjAP4kMgOtiyUdSVSLYv-0" />
         <mxCell id="zjAP4kMgOtiyUdSVSLYv-1" parent="zjAP4kMgOtiyUdSVSLYv-0" />
