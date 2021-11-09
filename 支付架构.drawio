@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:47:16.001Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="3XVCd6QLcFBAjbEgo1wi" version="15.6.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-11-09T10:05:08.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="FVD78B5ktJzTx98FqC_S" version="15.6.3" type="github" pages="9">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-356" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -719,7 +719,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0YhqoFYHNpn4-s8ogshZ" name="状态机">
-    <mxGraphModel dx="4327" dy="2780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1082" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-0" />
         <mxCell id="xWFtWYH_LF1aDXeCnVnM-1" parent="xWFtWYH_LF1aDXeCnVnM-0" />
@@ -3548,7 +3548,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qtza9hfaQxqNG8ZvRYPP" name="状态机.back">
-    <mxGraphModel dx="9985" dy="7584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1082" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WsTDuKim4CYHqpsbKxE1-0" />
         <mxCell id="WsTDuKim4CYHqpsbKxE1-1" parent="WsTDuKim4CYHqpsbKxE1-0" />
