@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T10:56:12.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VNG173PUTp3ob5o1AjpQ" version="15.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-11-16T10:59:17.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="TQh7j0CJ7gUBJIRDPO5i" version="15.7.4" type="github" pages="9">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
     <mxGraphModel dx="-356" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3336,7 +3336,7 @@
         <mxCell id="O6-x19QipPHi0byT-xRH-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#FF0000;" edge="1" parent="zjAP4kMgOtiyUdSVSLYv-1" source="O6-x19QipPHi0byT-xRH-61" target="O6-x19QipPHi0byT-xRH-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O6-x19QipPHi0byT-xRH-61" value="&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;V2 兼容 V1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="zjAP4kMgOtiyUdSVSLYv-1">
+        <mxCell id="O6-x19QipPHi0byT-xRH-61" value="&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;V2 兼容 V1&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;Versioning&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="zjAP4kMgOtiyUdSVSLYv-1">
           <mxGeometry x="240" y="2600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O6-x19QipPHi0byT-xRH-62" value="V2&lt;br&gt;(V1 -&amp;gt; V2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" vertex="1" parent="zjAP4kMgOtiyUdSVSLYv-1">
@@ -3350,7 +3350,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O6-x19QipPHi0byT-xRH-64" value="&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;V2 兼容 V1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="zjAP4kMgOtiyUdSVSLYv-1">
+        <mxCell id="O6-x19QipPHi0byT-xRH-64" value="&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;V2 兼容 V1&lt;br&gt;（Versioning）&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="zjAP4kMgOtiyUdSVSLYv-1">
           <mxGeometry x="240" y="2520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O6-x19QipPHi0byT-xRH-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="zjAP4kMgOtiyUdSVSLYv-1" source="O6-x19QipPHi0byT-xRH-66" target="O6-x19QipPHi0byT-xRH-64">
@@ -3437,7 +3437,7 @@
         <mxCell id="zJk5wwnTFdO1eFmyMrS5-0" value="1. 没用的字段可以直接删除&lt;br&gt;2. 添加字段需要v1-&amp;gt;v2时set&lt;br&gt;3. 转正删除字段v2不能使用" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;dashed=1;dashPattern=1 2;labelBackgroundColor=none;" vertex="1" parent="zjAP4kMgOtiyUdSVSLYv-1">
           <mxGeometry x="240" y="2700" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zJk5wwnTFdO1eFmyMrS5-1" value="1. Enum 添加值 代表添加业务 &lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;1. 需要使用versioning保证而不是接口兼容&lt;br&gt;1. 一般只在新请求返回，这时候可以直接添加&lt;/blockquote&gt;2. Enum 删除值 &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1. 代表删除业务 V1-&amp;gt;V2反序列化处理为Unknown 并且不对接&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. 一般别这样操作&lt;br&gt;3. Enum 变更值 代表业务处理方式变化&amp;nbsp;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;1. 需要使用versioning保证而不是接口兼容&lt;br&gt;2. V2-&amp;gt;V1需要变更为原来Enum&lt;br&gt;3. V1-&amp;gt;V2需要变更为新的Enum&lt;/blockquote&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;dashed=1;dashPattern=1 2;labelBackgroundColor=none;" vertex="1" parent="zjAP4kMgOtiyUdSVSLYv-1">
+        <mxCell id="zJk5wwnTFdO1eFmyMrS5-1" value="1. Enum 添加值 代表添加业务 &lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;1. 需要使用versioning保证接口兼容&lt;br&gt;1. 一般只在新请求返回，这时候可以直接添加&lt;/blockquote&gt;2. Enum 删除值 &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1. 代表删除业务 V1-&amp;gt;V2反序列化处理为Unknown 并且不对接&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. 一般别这样操作&lt;br&gt;3. Enum 变更值 代表业务处理方式变化&amp;nbsp;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;1. 需要使用versioning保证接口兼容&lt;br&gt;2. V2-&amp;gt;V1需要变更为原来Enum&lt;br&gt;3. V1-&amp;gt;V2需要变更为新的Enum&lt;/blockquote&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;dashed=1;dashPattern=1 2;labelBackgroundColor=none;" vertex="1" parent="zjAP4kMgOtiyUdSVSLYv-1">
           <mxGeometry y="2790" width="420" height="140" as="geometry" />
         </mxCell>
       </root>
