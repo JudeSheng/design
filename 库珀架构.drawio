@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T07:38:29.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="3_d7ddhUkdUI30i_SLtA" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T07:39:02.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hBESq9QrViuaersJa6Dm" version="17.4.6" type="github">
   <diagram id="AKDUNLeBLl_5oY7XmHpM" name="Plaid 网关渠道跳转支付">
     <mxGraphModel dx="1538" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,7 +156,7 @@
         <mxCell id="fh08YaxcLFQR8nakMehG-13" value="batch-job" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-40" y="480" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fh08YaxcLFQR8nakMehG-30" value="状态查询 / 账务上分" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=12;" edge="1" parent="1" source="fh08YaxcLFQR8nakMehG-14" target="fh08YaxcLFQR8nakMehG-4">
+        <mxCell id="fh08YaxcLFQR8nakMehG-30" value="过期查询 / &lt;br&gt;补偿查询账务上分" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=12;" edge="1" parent="1" source="fh08YaxcLFQR8nakMehG-14" target="fh08YaxcLFQR8nakMehG-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="200" y="630" />
