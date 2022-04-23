@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-23T04:28:55.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="mbJV-4kVTfmcSDJwoN4C" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-23T05:09:22.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hit9dcQRfkYv04S8VJ1B" version="17.4.6" type="github">
   <diagram id="AKDUNLeBLl_5oY7XmHpM" name="Plaid 网关渠道跳转支付">
     <mxGraphModel dx="1094" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
         <mxCell id="h--6WcG9sEsCJQwLAEvs-1" value="payment-core" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="480" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h--6WcG9sEsCJQwLAEvs-3" value="channel-manager" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="h--6WcG9sEsCJQwLAEvs-3" value="channel-config" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="40" y="720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
