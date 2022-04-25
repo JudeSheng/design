@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T12:32:31.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Zs0tA5zIhDbcHdWi352M" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-25T12:33:25.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Xyo_p405PYQLWNredCK8" version="17.4.6" type="github" pages="2">
   <diagram id="AKDUNLeBLl_5oY7XmHpM" name="Plaid 网关渠道跳转支付">
     <mxGraphModel dx="1693" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,6 +336,9 @@
         <mxCell id="IF9elcWDsAywVQMF-QJl-21" value="PROCESSING" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="320" y="740" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="IF9elcWDsAywVQMF-QJl-40" value="上分成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="IF9elcWDsAywVQMF-QJl-22" target="IF9elcWDsAywVQMF-QJl-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IF9elcWDsAywVQMF-QJl-22" value="PAYIN_COMPLETED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="520" y="740" width="120" height="60" as="geometry" />
         </mxCell>
@@ -394,6 +397,9 @@
         </mxCell>
         <mxCell id="IF9elcWDsAywVQMF-QJl-38" value="FALIED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="320" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IF9elcWDsAywVQMF-QJl-39" value="SUCCEEDED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
