@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T14:40:33.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="11xC59dU42dKfiPJ8A-q" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-12T14:40:48.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="hdSVwluG6fSrXQjbWya1" version="18.0.2" type="github" pages="2">
   <diagram id="AKDUNLeBLl_5oY7XmHpM" name="Plaid">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fDV6gBs60mFLtimAP8nI-1" value="1.7 查询附言" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC00;fontColor=#00CC00;" parent="1" source="fh08YaxcLFQR8nakMehG-1" target="fh08YaxcLFQR8nakMehG-2" edge="1">
+        <mxCell id="fDV6gBs60mFLtimAP8nI-1" value="1.7 查询附言&lt;br&gt;收款人" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC00;fontColor=#00CC00;" parent="1" source="fh08YaxcLFQR8nakMehG-1" target="fh08YaxcLFQR8nakMehG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="320" y="330" />
