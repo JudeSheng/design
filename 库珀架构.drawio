@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T11:57:59.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="hY-ICOstpu1wuDdHizZd" version="18.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-17T08:50:07.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="thaNSmUvVhdm8exjY3hB" version="18.0.5" type="github" pages="2">
   <diagram id="AKDUNLeBLl_5oY7XmHpM" name="Plaid">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -363,7 +363,7 @@
         <mxCell id="h--6WcG9sEsCJQwLAEvs-3" value="payment-channel-config" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="840" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VBnczMa9BV2mDhcCN_xi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fDV6gBs60mFLtimAP8nI-6" target="VBnczMa9BV2mDhcCN_xi-8">
+        <mxCell id="VBnczMa9BV2mDhcCN_xi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fDV6gBs60mFLtimAP8nI-6" target="VBnczMa9BV2mDhcCN_xi-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fDV6gBs60mFLtimAP8nI-6" value="payment-method" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" parent="1" vertex="1">
@@ -383,20 +383,53 @@
         <mxCell id="Ws-CBC9BYEeVMAgnBG7S-1" value="fee-engine" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="560" y="480" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VBnczMa9BV2mDhcCN_xi-8" value="diposite" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="VBnczMa9BV2mDhcCN_xi-8" value="diposite" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="160" y="480" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VBnczMa9BV2mDhcCN_xi-10" value="gateway-web" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="VBnczMa9BV2mDhcCN_xi-10" value="gateway-web" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="80" y="380" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VBnczMa9BV2mDhcCN_xi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VBnczMa9BV2mDhcCN_xi-11" target="VBnczMa9BV2mDhcCN_xi-12">
+        <mxCell id="VBnczMa9BV2mDhcCN_xi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VBnczMa9BV2mDhcCN_xi-11" target="VBnczMa9BV2mDhcCN_xi-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VBnczMa9BV2mDhcCN_xi-11" value="app-gateway" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="VBnczMa9BV2mDhcCN_xi-11" value="app-gateway" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="480" y="380" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VBnczMa9BV2mDhcCN_xi-12" value="payment-mobile-gateway" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="VBnczMa9BV2mDhcCN_xi-12" value="payment-mobile-gateway" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="600" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WprTd4CmwqhguiOPiplJ-1" target="WprTd4CmwqhguiOPiplJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WprTd4CmwqhguiOPiplJ-1" target="WprTd4CmwqhguiOPiplJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WprTd4CmwqhguiOPiplJ-1" target="WprTd4CmwqhguiOPiplJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-1" value="payment-method" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WprTd4CmwqhguiOPiplJ-2" target="WprTd4CmwqhguiOPiplJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-2" value="payment-api" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-4" value="deposit" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="920" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WprTd4CmwqhguiOPiplJ-5" target="WprTd4CmwqhguiOPiplJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-5" value="dispatch" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="920" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-6" value="fee-engine" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WprTd4CmwqhguiOPiplJ-7" value="payment-instrument" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="480" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
