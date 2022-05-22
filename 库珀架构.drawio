@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T16:03:24.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="FKD6nr1tNjwOxlu_uUBC" version="18.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-22T16:12:38.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="nbLRrlPFZ2oUioZokpAE" version="18.0.7" type="github" pages="4">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -857,7 +857,7 @@
         <mxCell id="-WIim2Zy3Eb11DHBw9KT-12" value="6.2 核销" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#000000;endSize=6;strokeWidth=1;entryX=0.925;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="569O_koC6UTFpL7IgRvw-2" target="JgDk41TfJkd_PKwjJCrm-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="569O_koC6UTFpL7IgRvw-2" value="admin-center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="569O_koC6UTFpL7IgRvw-2" value="admin-center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="560" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hIRzr7vMRPGYKHPEwtie-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="569O_koC6UTFpL7IgRvw-5" target="Bh5qcUXGkLOkHvGGlcJl-1">
@@ -865,7 +865,7 @@
             <mxPoint x="100" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="569O_koC6UTFpL7IgRvw-5" value="payment-method" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="569O_koC6UTFpL7IgRvw-5" value="payment-method" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="40" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="569O_koC6UTFpL7IgRvw-7" value="同名校验" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;fontColor=#FF0000;fontStyle=1" edge="1" parent="1" source="_1rAdi-EA1vRNcxcA7PT-7" target="_1rAdi-EA1vRNcxcA7PT-7">
@@ -937,6 +937,15 @@
         </mxCell>
         <mxCell id="8X6tFQ6RBStAmUdQbrTo-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_mysql_instance;rounded=1;shadow=0;glass=0;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="-280" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8X6tFQ6RBStAmUdQbrTo-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698400-icon-136-document-edit-128.png;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontSize=12;fontColor=#FF0000;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="400" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X6tFQ6RBStAmUdQbrTo-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698400-icon-136-document-edit-128.png;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontSize=12;fontColor=#FF0000;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X6tFQ6RBStAmUdQbrTo-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698400-icon-136-document-edit-128.png;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontSize=12;fontColor=#FF0000;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="310" y="660" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
