@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T15:40:06.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="4Af_LZ-LtbA2ywe2ehfJ" version="18.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-22T15:42:43.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="XGAvjIwpKXwSu0BvOzU8" version="18.0.7" type="github" pages="4">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1064,7 +1064,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-aIKh4P43fMx_vH1sYRz-18" value="PROCESSING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-aIKh4P43fMx_vH1sYRz-18" value="PENDING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-aIKh4P43fMx_vH1sYRz-22" value="SUCCEEDED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
