@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T16:27:57.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ssJjNbcCqO-Iswx3Dr7R" version="18.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-22T16:34:00.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="KArNW_1-XQIvjplCuNdX" version="18.0.7" type="github" pages="4">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -937,15 +937,6 @@
         </mxCell>
         <mxCell id="8X6tFQ6RBStAmUdQbrTo-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_mysql_instance;rounded=1;shadow=0;glass=0;fillStyle=solid;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="-280" y="520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8X6tFQ6RBStAmUdQbrTo-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698400-icon-136-document-edit-128.png;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontSize=12;fontColor=#FF0000;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;fontFamily=Helvetica;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-130" y="400" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8X6tFQ6RBStAmUdQbrTo-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698400-icon-136-document-edit-128.png;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontSize=12;fontColor=#FF0000;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;fontFamily=Helvetica;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-110" y="530" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8X6tFQ6RBStAmUdQbrTo-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698400-icon-136-document-edit-128.png;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontSize=12;fontColor=#FF0000;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;fontFamily=Helvetica;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="310" y="660" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0rtbu9J4VmOsks97H1L3-1" value="kucoin Web / kucoin App" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="-120" y="120" width="640" height="80" as="geometry" />
