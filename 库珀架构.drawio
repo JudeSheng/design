@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T16:01:05.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="1THupyH0AJX5i5Odhxlb" version="18.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-22T16:03:24.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="FKD6nr1tNjwOxlu_uUBC" version="18.0.7" type="github" pages="4">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -669,13 +669,13 @@
         <mxCell id="8X6tFQ6RBStAmUdQbrTo-3" value="4.2 订单落库" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1" edge="1" parent="1" source="JgDk41TfJkd_PKwjJCrm-28" target="8X6tFQ6RBStAmUdQbrTo-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgDk41TfJkd_PKwjJCrm-28" value="channel-core" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="JgDk41TfJkd_PKwjJCrm-28" value="channel-core" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-120" y="520" width="800" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JgDk41TfJkd_PKwjJCrm-35" value="4.0 webhook &lt;br&gt;转账结果通知" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=12;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="JgDk41TfJkd_PKwjJCrm-37" target="JgDk41TfJkd_PKwjJCrm-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgDk41TfJkd_PKwjJCrm-37" value="SEPA Transactive" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="JgDk41TfJkd_PKwjJCrm-37" value="SEPA Transactive" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-120" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JgDk41TfJkd_PKwjJCrm-38" value="4.1 转账结果通知" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=12;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="JgDk41TfJkd_PKwjJCrm-39" target="JgDk41TfJkd_PKwjJCrm-28">
@@ -698,7 +698,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1rAdi-EA1vRNcxcA7PT-3" value="user-management" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="_1rAdi-EA1vRNcxcA7PT-3" value="user-management" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-120" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_1rAdi-EA1vRNcxcA7PT-9" value="4.6 风控上报" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1" edge="1" parent="1" source="_1rAdi-EA1vRNcxcA7PT-5" target="_1rAdi-EA1vRNcxcA7PT-7">
@@ -718,7 +718,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1rAdi-EA1vRNcxcA7PT-5" value="payment-risk-adaptor" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="_1rAdi-EA1vRNcxcA7PT-5" value="payment-risk-adaptor" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_1rAdi-EA1vRNcxcA7PT-16" value="4.7 风控结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;dashed=1;fontStyle=1" edge="1" parent="1" source="_1rAdi-EA1vRNcxcA7PT-7" target="_1rAdi-EA1vRNcxcA7PT-5">
@@ -730,7 +730,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1rAdi-EA1vRNcxcA7PT-7" value="risk" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="_1rAdi-EA1vRNcxcA7PT-7" value="risk" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="560" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_1rAdi-EA1vRNcxcA7PT-14" value="银行转账" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="_1rAdi-EA1vRNcxcA7PT-13" target="JgDk41TfJkd_PKwjJCrm-37">
@@ -785,7 +785,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LGqRWs3cNB310okmFgtT-1" value="kucoin Web / kucoin App" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="LGqRWs3cNB310okmFgtT-1" value="kucoin Web / kucoin App" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-120" y="120" width="640" height="80" as="geometry" />
         </mxCell>
         <mxCell id="569O_koC6UTFpL7IgRvw-10" value="2.1 查询支付方式" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC00;fontColor=#00CC00;" edge="1" parent="1" source="LGqRWs3cNB310okmFgtT-2" target="569O_koC6UTFpL7IgRvw-5">
@@ -857,7 +857,7 @@
         <mxCell id="-WIim2Zy3Eb11DHBw9KT-12" value="6.2 核销" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#000000;endSize=6;strokeWidth=1;entryX=0.925;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="569O_koC6UTFpL7IgRvw-2" target="JgDk41TfJkd_PKwjJCrm-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="569O_koC6UTFpL7IgRvw-2" value="admin-center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="569O_koC6UTFpL7IgRvw-2" value="admin-center" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="560" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hIRzr7vMRPGYKHPEwtie-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="569O_koC6UTFpL7IgRvw-5" target="Bh5qcUXGkLOkHvGGlcJl-1">
@@ -896,7 +896,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-WIim2Zy3Eb11DHBw9KT-5" value="Addmin Web" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="-WIim2Zy3Eb11DHBw9KT-5" value="Addmin Web" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="560" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-WIim2Zy3Eb11DHBw9KT-15" value="异常处理" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#000000;endSize=6;strokeWidth=1;" edge="1" parent="1" source="-WIim2Zy3Eb11DHBw9KT-7" target="-WIim2Zy3Eb11DHBw9KT-5">
