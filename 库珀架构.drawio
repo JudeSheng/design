@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T17:16:18.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ugxIXYnzJna6N7s4-4YK" version="18.0.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-22T17:20:38.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="hAyY0IILau36ZS2ZviJg" version="18.0.7" type="github" pages="5">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -318,13 +318,13 @@
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-5" value="4.2 落库" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-6" target="Cxh6Si0ecEIcZ-AmwRn0-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-6" value="channel-core" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-6" value="channel-core" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="-120" y="520" width="800" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-7" value="4.0 webhook &lt;br style=&quot;font-size: 12px;&quot;&gt;转账结果通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=12;fontColor=#FF0000;strokeColor=#FF0000;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-8" target="Cxh6Si0ecEIcZ-AmwRn0-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-8" value="SEPA Transactive" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-8" value="SEPA Transactive" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="-120" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-9" value="4.1 转账结果通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=12;fontColor=#FF0000;strokeColor=#FF0000;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-10" target="Cxh6Si0ecEIcZ-AmwRn0-6">
@@ -335,7 +335,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-10" value="channel-callback" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-10" value="channel-callback" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="120" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-11" value="4.4 勾兑结果" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeWidth=1;strokeColor=#FF0000;dashed=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-12" target="Cxh6Si0ecEIcZ-AmwRn0-6">
@@ -347,7 +347,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-12" value="user-management" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-12" value="user-management" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;fontFamily=Comic Sans MS;sketch=1;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="-120" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-13" value="4.6 风控上报" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;fontSize=12;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-15" target="Cxh6Si0ecEIcZ-AmwRn0-17">
@@ -367,7 +367,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-15" value="payment-risk-adaptor" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-15" value="payment-risk-adaptor" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="320" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-16" value="4.7 风控结果" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;dashed=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;fontSize=12;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-17" target="Cxh6Si0ecEIcZ-AmwRn0-15">
@@ -379,7 +379,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-17" value="risk" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-17" value="risk" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="560" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-18" value="银行转账" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-19" target="Cxh6Si0ecEIcZ-AmwRn0-8">
@@ -434,7 +434,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-25" value="kucoin Web / kucoin App" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-25" value="kucoin Web / kucoin App" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="-120" y="120" width="640" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-26" value="2.1 查询支付方式" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC00;fontColor=#00CC00;fontFamily=Comic Sans MS;fontStyle=1;fontSize=12;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-31" target="Cxh6Si0ecEIcZ-AmwRn0-39">
@@ -478,7 +478,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-31" value="payment-api" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-31" value="payment-api" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="-120" y="280" width="800" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-32" value="4.10 通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-6" target="Cxh6Si0ecEIcZ-AmwRn0-46">
@@ -489,7 +489,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-33" value="deposite" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-33" value="deposite" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="200" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-34" value="充值" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-35" target="Cxh6Si0ecEIcZ-AmwRn0-25">
@@ -506,7 +506,7 @@
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-36" value="6.2 核销" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#000000;endSize=6;strokeWidth=1;entryX=0.925;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-37" target="Cxh6Si0ecEIcZ-AmwRn0-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-37" value="admin-center" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-37" value="admin-center" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="560" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-38" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontStyle=1;fontSize=12;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-39" target="Cxh6Si0ecEIcZ-AmwRn0-33">
@@ -514,7 +514,7 @@
             <mxPoint x="100" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-39" value="payment-method" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-39" value="payment-method" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="40" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-40" value="同名校验" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;fontColor=#FF0000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;rounded=0;fontSize=12;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-17" target="Cxh6Si0ecEIcZ-AmwRn0-17">
@@ -545,7 +545,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-43" value="Addmin Web" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-43" value="Addmin Web" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="560" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-44" value="异常处理" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#000000;endSize=6;strokeWidth=1;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1" source="Cxh6Si0ecEIcZ-AmwRn0-45" target="Cxh6Si0ecEIcZ-AmwRn0-43">
@@ -559,7 +559,7 @@
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-45" value="运维" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Users.svg;fontFamily=Comic Sans MS;fontStyle=1;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="760" y="120.00000000000003" width="62" height="67.81" as="geometry" />
         </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-46" value="payment-notify-center" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
+        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-46" value="payment-notify-center" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="360" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-47" value="4.3 用户勾兑" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;fontSize=12;" edge="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
@@ -575,9 +575,6 @@
         </mxCell>
         <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-48" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_mysql_instance;shadow=0;glass=0;fillStyle=solid;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
           <mxGeometry x="-280" y="520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Cxh6Si0ecEIcZ-AmwRn0-49" value="kucoin Web / kucoin App" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;fontFamily=Comic Sans MS;" vertex="1" parent="Cxh6Si0ecEIcZ-AmwRn0-1">
-          <mxGeometry x="-120" y="120" width="640" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
