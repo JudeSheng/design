@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T10:51:48.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="8GYSXLtrFSaVYVANN6qk" version="18.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-22T10:51:57.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="kYMPbLNApaNZCbK6CGmG" version="18.0.7" type="github" pages="4">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,10 +82,10 @@
         <mxCell id="4496OtmRwMzeR0xtqqgV-59" value="payment-mobile-gateway" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;shadow=0;glass=0;gradientDirection=north;fillStyle=solid;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
           <mxGeometry x="640" y="340" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4496OtmRwMzeR0xtqqgV-66" value="deposit" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;sketch=1;shadow=0;glass=0;fillColor=#e1d5e7;fillStyle=solid;strokeColor=#9673a6;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
+        <mxCell id="4496OtmRwMzeR0xtqqgV-66" value="deposit" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;sketch=1;shadow=0;glass=0;fillColor=#eeeeee;fillStyle=solid;strokeColor=#36393d;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
           <mxGeometry x="320" y="520" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4496OtmRwMzeR0xtqqgV-68" value="dispatch" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;sketch=1;shadow=0;glass=0;fillColor=#e1d5e7;fillStyle=solid;strokeColor=#9673a6;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
+        <mxCell id="4496OtmRwMzeR0xtqqgV-68" value="dispatch" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;sketch=1;shadow=0;glass=0;fillColor=#eeeeee;fillStyle=solid;strokeColor=#36393d;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
           <mxGeometry x="480" y="520" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4496OtmRwMzeR0xtqqgV-70" value="payment-instrument" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;sketch=1;shadow=0;glass=0;fillColor=#d5e8d4;fillStyle=solid;strokeColor=#82b366;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
