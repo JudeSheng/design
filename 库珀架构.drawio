@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T17:07:29.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="13TIsDIxPMDJASH6PhYJ" version="18.0.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-22T17:08:25.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="SnhRp7nL3dybbtO95mYS" version="18.0.7" type="github" pages="5">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="KfgInK3Bs8OHEqHx1ypt-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;gradientDirection=north;glass=0;shadow=0;sketch=1;fillStyle=solid;align=left;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;spacing=30;spacingTop=0;fillColor=#fa6800;strokeColor=#C73500;fontFamily=Courier New;fontColor=#000000;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
           <mxGeometry x="280" y="440" width="360" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="KfgInK3Bs8OHEqHx1ypt-1" value="第三方" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;gradientDirection=north;glass=0;shadow=0;sketch=1;fillStyle=solid;align=right;verticalAlign=middle;horizontal=1;labelPosition=left;verticalLabelPosition=middle;spacing=30;spacingTop=0;fontFamily=Courier New;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
+        <mxCell id="KfgInK3Bs8OHEqHx1ypt-1" value="外部系统" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;gradientDirection=north;glass=0;shadow=0;sketch=1;fillStyle=solid;align=right;verticalAlign=middle;horizontal=1;labelPosition=left;verticalLabelPosition=middle;spacing=30;spacingTop=0;fontFamily=Courier New;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
           <mxGeometry x="40" y="860" width="820" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KfgInK3Bs8OHEqHx1ypt-0" value="渠道层" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;gradientDirection=north;glass=0;shadow=0;sketch=1;fillStyle=solid;align=right;verticalAlign=middle;horizontal=1;labelPosition=left;verticalLabelPosition=middle;spacing=30;spacingTop=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontFamily=Courier New;fontColor=#000000;" vertex="1" parent="4496OtmRwMzeR0xtqqgV-1">
