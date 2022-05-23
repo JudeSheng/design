@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T09:44:58.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="8-hefyvFGyhdjkacQIGV" version="18.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-23T10:08:02.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="vAOLkZ2-NQcuFgp3a0e6" version="18.1.1" type="github" pages="5">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,13 +666,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="p1SlnnT6z95paqQj4OoR-2" value="&lt;font color=&quot;#000000&quot;&gt;七天过期&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;" edge="1" parent="1" source="L_68lXglgVX7AGFUaN7--6" target="p1SlnnT6z95paqQj4OoR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L_68lXglgVX7AGFUaN7--6" value="PENDING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L_68lXglgVX7AGFUaN7--13" value="风控拒绝" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="L_68lXglgVX7AGFUaN7--8" target="L_68lXglgVX7AGFUaN7--12">
           <mxGeometry x="-0.5789" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1050" y="320" />
+              <mxPoint x="1050" y="330" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -680,7 +683,7 @@
         <mxCell id="L_68lXglgVX7AGFUaN7--23" value="风控通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="L_68lXglgVX7AGFUaN7--8" target="L_68lXglgVX7AGFUaN7--21">
           <mxGeometry x="-0.6522" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1020" y="90" />
+              <mxPoint x="1050" y="90" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -688,22 +691,22 @@
         <mxCell id="L_68lXglgVX7AGFUaN7--25" value="人工审核" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="L_68lXglgVX7AGFUaN7--8" target="L_68lXglgVX7AGFUaN7--24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="p1SlnnT6z95paqQj4OoR-3" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;七天过期&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;" edge="1" parent="1" source="L_68lXglgVX7AGFUaN7--8" target="p1SlnnT6z95paqQj4OoR-1">
+          <mxGeometry x="-0.6" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="90" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="L_68lXglgVX7AGFUaN7--8" value="PROCESSING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="960" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="L_68lXglgVX7AGFUaN7--14" value="?" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="L_68lXglgVX7AGFUaN7--10" target="L_68lXglgVX7AGFUaN7--12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="920" y="350" />
-              <mxPoint x="920" y="350" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="L_68lXglgVX7AGFUaN7--15" value="手动核销" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="L_68lXglgVX7AGFUaN7--10" target="L_68lXglgVX7AGFUaN7--8">
           <mxGeometry x="0.5789" relative="1" as="geometry">
             <mxPoint x="930" y="60" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="990" y="320" />
+              <mxPoint x="990" y="330" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -764,6 +767,9 @@
         </mxCell>
         <mxCell id="L_68lXglgVX7AGFUaN7--33" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/heroicons-ui/24/receipt-refund-128.png;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontSize=12;fontColor=#00CC00;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="860" y="280" width="35.14" height="35.14" as="geometry" />
+        </mxCell>
+        <mxCell id="p1SlnnT6z95paqQj4OoR-1" value="EXPIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="760" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
