@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T05:11:43.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="KSmXLeCCSev_mwwPgqKY" version="18.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-23T05:22:58.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Jk4rdwxuIx9ommtfZucE" version="18.1.1" type="github" pages="5">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -580,7 +580,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s1ZR7lenBuxyFX8-3sta" name="状态机">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -657,7 +657,7 @@
         <mxCell id="IF9elcWDsAywVQMF-QJl-39" value="SUCCEEDED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="520" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-aIKh4P43fMx_vH1sYRz-1" value="channel-core bank transaction payin 状态机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="-aIKh4P43fMx_vH1sYRz-1" value="channel-core bank SEPA transaction payin 状态机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="640" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-aIKh4P43fMx_vH1sYRz-10" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;人工审核&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="-aIKh4P43fMx_vH1sYRz-14" target="-aIKh4P43fMx_vH1sYRz-18" edge="1">
@@ -875,20 +875,10 @@
         <mxCell id="_1rAdi-EA1vRNcxcA7PT-13" value="用户" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Users.svg;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-280" y="680" width="62" height="67.81" as="geometry" />
         </mxCell>
-        <mxCell id="569O_koC6UTFpL7IgRvw-1" value="1.2 老用户&lt;br&gt;文案显示查询" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;fontColor=#0000FF;shadow=0;sketch=0;fontFamily=Helvetica;fontStyle=1" parent="1" target="LGqRWs3cNB310okmFgtT-2" edge="1">
+        <mxCell id="569O_koC6UTFpL7IgRvw-8" value="3.0 查询银行&lt;br&gt;账户、IBAN、附言" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#0000FF;shadow=0;sketch=0;fontFamily=Helvetica;fontStyle=1" parent="1" target="LGqRWs3cNB310okmFgtT-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint y="210" />
-              <mxPoint y="210" />
-            </Array>
-            <mxPoint y="200" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="569O_koC6UTFpL7IgRvw-8" value="3.0 查询银行&lt;br&gt;账户、IBAN、附言" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;strokeColor=#00CC00;shadow=0;sketch=0;fontFamily=Helvetica;fontStyle=1" parent="1" target="LGqRWs3cNB310okmFgtT-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="180" y="210" />
-              <mxPoint x="180" y="210" />
+              <mxPoint x="200" y="200" />
             </Array>
             <mxPoint x="180" y="200" as="sourcePoint" />
           </mxGeometry>
@@ -903,12 +893,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="khvW2UBiPfYucauSgGUu-3" value="5.0 查询充值记录" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;sketch=0;fontFamily=Helvetica;fontStyle=1" parent="1" target="LGqRWs3cNB310okmFgtT-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.3333" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="220" />
-              <mxPoint x="320" y="220" />
+              <mxPoint x="360" y="200" />
             </Array>
             <mxPoint x="320" y="200" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="569O_koC6UTFpL7IgRvw-10" value="2.1 查询支付方式、&lt;br&gt;限额、手续费" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC00;fontColor=#00CC00;fontFamily=Helvetica;fontStyle=1" parent="1" source="LGqRWs3cNB310okmFgtT-2" target="569O_koC6UTFpL7IgRvw-5" edge="1">
@@ -919,11 +909,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="khvW2UBiPfYucauSgGUu-1" value="1.1 新用户&lt;br&gt;KYC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;fontColor=#0000FF;sketch=0;fontFamily=Helvetica;fontStyle=1" parent="1" source="LGqRWs3cNB310okmFgtT-2" target="_1rAdi-EA1vRNcxcA7PT-3" edge="1">
+        <mxCell id="khvW2UBiPfYucauSgGUu-1" value="1.1&amp;nbsp;KYC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;fontColor=#0000FF;sketch=0;fontFamily=Helvetica;fontStyle=1" parent="1" source="LGqRWs3cNB310okmFgtT-2" target="_1rAdi-EA1vRNcxcA7PT-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-60" y="390" />
-              <mxPoint x="-60" y="390" />
+              <mxPoint x="-80" y="400" />
+              <mxPoint x="-80" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -943,14 +933,6 @@
               <mxPoint x="520" y="370" />
             </Array>
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EQ4OtzY3IUb0VViqhffq-5" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;3.1 查询银行&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;账户、IBAN、附言&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#00CC00;endSize=6;strokeColor=#00CC00;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" parent="1" source="LGqRWs3cNB310okmFgtT-2" target="Bh5qcUXGkLOkHvGGlcJl-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="220" y="370" />
-              <mxPoint x="220" y="370" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hrXTlqeQ-ESUQejjSrHH-4" value="6.4 编辑" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF8000;fontColor=#FF8000;" edge="1" parent="1" source="LGqRWs3cNB310okmFgtT-2" target="569O_koC6UTFpL7IgRvw-2">
@@ -974,6 +956,14 @@
             <Array as="points">
               <mxPoint x="760" y="410" />
               <mxPoint x="760" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuEct83unANpQzKlWWvl-1" value="3.1 查询" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#0000FF;" edge="1" parent="1" source="LGqRWs3cNB310okmFgtT-2" target="_1rAdi-EA1vRNcxcA7PT-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="410" />
+              <mxPoint x="-20" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1051,7 +1041,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-WIim2Zy3Eb11DHBw9KT-4" value="1.0 新用户 &lt;br&gt;KYC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;fontColor=#0000FF;shadow=0;sketch=0;fontFamily=Helvetica;fontStyle=1" parent="1" target="LGqRWs3cNB310okmFgtT-2" edge="1">
+        <mxCell id="-WIim2Zy3Eb11DHBw9KT-4" value="1.0 新用户 &lt;br&gt;高级KYC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;fontColor=#0000FF;shadow=0;sketch=0;fontFamily=Helvetica;fontStyle=1" parent="1" target="LGqRWs3cNB310okmFgtT-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-80" y="200" as="sourcePoint" />
             <mxPoint x="10" y="290" as="targetPoint" />
