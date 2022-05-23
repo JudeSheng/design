@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T09:26:58.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="PVWM963PJJsI0RNAXDGq" version="18.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-23T09:27:28.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="BVuv7MzIUPd6qr7f1NV4" version="18.1.1" type="github" pages="5">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -761,6 +761,9 @@
         </mxCell>
         <mxCell id="L_68lXglgVX7AGFUaN7--32" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Users.svg;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontColor=#00CC00;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="1260" y="220" width="36.58" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L_68lXglgVX7AGFUaN7--33" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/heroicons-ui/24/receipt-refund-128.png;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=solid;fontSize=12;fontColor=#00CC00;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="860" y="280" width="35.14" height="35.14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
