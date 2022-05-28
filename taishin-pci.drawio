@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T15:41:01.590Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="gGD7vRG3O6oYQ7qkyE13" version="16.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-28T10:07:45.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="HSEleWjDPjdRrkeyBMw2" version="18.1.3" type="github" pages="6">
   <diagram id="cVjxZzLwL_wyQ9B9aP87" name="架构图">
-    <mxGraphModel dx="-232" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3282" dy="4633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -458,7 +458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jRmJMZqvgI9TjXQ9TuZf" name="模型关系图">
-    <mxGraphModel dx="1022" dy="1162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3713" dy="3287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8s_jQDS1ty3zFgQ5Uoqw-0" />
         <mxCell id="8s_jQDS1ty3zFgQ5Uoqw-1" parent="8s_jQDS1ty3zFgQ5Uoqw-0" />
@@ -653,7 +653,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HEi5bVT4WN4cwsd7brou" name="序列图">
-    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6997" dy="5499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7MgugsnWemO8ULKNvG8d-0" />
         <mxCell id="7MgugsnWemO8ULKNvG8d-1" parent="7MgugsnWemO8ULKNvG8d-0" />
@@ -2947,7 +2947,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RsNCcDc42ss8RRtCYAUE" name="流程图">
-    <mxGraphModel dx="3903" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6594" dy="2887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="toCJEF6y2XzxjIQlwi7e-0" />
         <mxCell id="toCJEF6y2XzxjIQlwi7e-1" parent="toCJEF6y2XzxjIQlwi7e-0" />
@@ -3842,7 +3842,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qtza9hfaQxqNG8ZvRYPP" name="状态机">
-    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4936" dy="4633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WsTDuKim4CYHqpsbKxE1-0" />
         <mxCell id="WsTDuKim4CYHqpsbKxE1-1" parent="WsTDuKim4CYHqpsbKxE1-0" />
@@ -4572,7 +4572,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3-hzUxiAn3FQYgzLFAj1" name="开发工具">
-    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4353" dy="3643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zjAP4kMgOtiyUdSVSLYv-0" />
         <mxCell id="zjAP4kMgOtiyUdSVSLYv-1" parent="zjAP4kMgOtiyUdSVSLYv-0" />
@@ -5087,115 +5087,6 @@
         </mxCell>
         <mxCell id="zjAP4kMgOtiyUdSVSLYv-108" value="Git开发上线流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zjAP4kMgOtiyUdSVSLYv-1" vertex="1">
           <mxGeometry x="-40" y="40" width="1000" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="w5kTClqYaTIB0cyUE67b" name="人生建模">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="1oSCqq7E8UGZ24rbZzpE-0" />
-        <mxCell id="1oSCqq7E8UGZ24rbZzpE-1" parent="1oSCqq7E8UGZ24rbZzpE-0" />
-        <mxCell id="1oSCqq7E8UGZ24rbZzpE-2" value="记忆" style="rounded=0;whiteSpace=wrap;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="610" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TeD9dwT8_m4Hlo3e5cRC-2" value="进化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" source="TeD9dwT8_m4Hlo3e5cRC-0" target="TeD9dwT8_m4Hlo3e5cRC-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TeD9dwT8_m4Hlo3e5cRC-0" value="祖先" style="rounded=0;whiteSpace=wrap;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TeD9dwT8_m4Hlo3e5cRC-1" value="分支" style="rounded=0;whiteSpace=wrap;html=1;" parent="1oSCqq7E8UGZ24rbZzpE-1" vertex="1">
-          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="QtU0sCGYTJAGGl4AVoWV" name="Page-8">
-    <mxGraphModel dx="2188" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="ktgdGH7XBXIt0P5dXKfv-0" />
-        <mxCell id="ktgdGH7XBXIt0P5dXKfv-1" parent="ktgdGH7XBXIt0P5dXKfv-0" />
-        <mxCell id="ktgdGH7XBXIt0P5dXKfv-5" value="刀村民（75%）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ktgdGH7XBXIt0P5dXKfv-1" source="ktgdGH7XBXIt0P5dXKfv-3" target="ktgdGH7XBXIt0P5dXKfv-6">
-          <mxGeometry x="0.3846" relative="1" as="geometry">
-            <mxPoint x="460" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="360" y="110" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ktgdGH7XBXIt0P5dXKfv-3" value="狼（2）&lt;br&gt;民（3）神（1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="400" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-0" value="票村民" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ktgdGH7XBXIt0P5dXKfv-1" source="ktgdGH7XBXIt0P5dXKfv-6" target="LLuV8OwJLtRMHUeg2F7r-1">
-          <mxGeometry x="0.4545" relative="1" as="geometry">
-            <mxPoint x="240" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="230" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ktgdGH7XBXIt0P5dXKfv-6" value="狼（2）&lt;br&gt;民（2）神（1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="300" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-1" value="狼（2）&lt;br&gt;民（1）神（1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-2" value="刀村民（75%）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ktgdGH7XBXIt0P5dXKfv-1" source="LLuV8OwJLtRMHUeg2F7r-3" target="LLuV8OwJLtRMHUeg2F7r-5">
-          <mxGeometry x="0.3846" relative="1" as="geometry">
-            <mxPoint x="1260" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1160" y="110" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-3" value="狼（2）&lt;br&gt;民（3）神（1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="1200" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-4" value="票村民" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ktgdGH7XBXIt0P5dXKfv-1" source="LLuV8OwJLtRMHUeg2F7r-5" target="LLuV8OwJLtRMHUeg2F7r-6">
-          <mxGeometry x="0.4545" relative="1" as="geometry">
-            <mxPoint x="1040" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1060" y="230" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-5" value="狼（2）&lt;br&gt;民（2）神（1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="1100" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-6" value="狼（2）&lt;br&gt;民（1）神（1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="1000" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-7" value="刀村民（%）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ktgdGH7XBXIt0P5dXKfv-1" source="LLuV8OwJLtRMHUeg2F7r-8" target="LLuV8OwJLtRMHUeg2F7r-10">
-          <mxGeometry x="0.3846" relative="1" as="geometry">
-            <mxPoint x="2060" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1960" y="110" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-8" value="狼（3）&lt;br&gt;民（3）神（2）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="2000" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-9" value="票村民" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ktgdGH7XBXIt0P5dXKfv-1" source="LLuV8OwJLtRMHUeg2F7r-10" target="LLuV8OwJLtRMHUeg2F7r-11">
-          <mxGeometry x="0.4545" relative="1" as="geometry">
-            <mxPoint x="1840" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1860" y="230" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-10" value="狼（3）&lt;br&gt;民（2）神（2）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="1900" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LLuV8OwJLtRMHUeg2F7r-11" value="狼（2）&lt;br&gt;民（1）神（1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ktgdGH7XBXIt0P5dXKfv-1">
-          <mxGeometry x="1800" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
