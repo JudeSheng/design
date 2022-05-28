@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T11:54:56.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="FUa2lhOFuiM7two2qDU7" version="18.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-28T12:25:30.905Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="9MV0K2TJ69KVnYyLNUnH" version="18.1.3" type="github" pages="2">
   <diagram id="C7MPo83l5ViuVZeambWs" name="人生建模">
     <mxGraphModel dx="7417" dy="4633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -818,14 +818,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="C7JWFWicMtQk2puKphVS-26" value="&lt;div class=&quot;lake-content&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(245, 34, 45); font-size: 13px;&quot; class=&quot;ne-text&quot;&gt;民办网上报名&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FF0000;fontStyle=1" vertex="1" connectable="0" parent="C7JWFWicMtQk2puKphVS-23">
+          <mxGeometry x="-0.2941" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="C7JWFWicMtQk2puKphVS-6" value="06/22" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C7JWFWicMtQk2puKphVS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="C7JWFWicMtQk2puKphVS-7" target="C7JWFWicMtQk2puKphVS-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7JWFWicMtQk2puKphVS-7" value="06/24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="520" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="C7JWFWicMtQk2puKphVS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="C7JWFWicMtQk2puKphVS-8" target="C7JWFWicMtQk2puKphVS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C7JWFWicMtQk2puKphVS-8" value="06/26" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C7JWFWicMtQk2puKphVS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="C7JWFWicMtQk2puKphVS-9" target="C7JWFWicMtQk2puKphVS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C7JWFWicMtQk2puKphVS-33" value="&lt;div class=&quot;lake-content&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(245, 34, 45); font-size: 13px;&quot; class=&quot;ne-text&quot;&gt;民办随机录取&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FF0000;fontStyle=1" vertex="1" connectable="0" parent="C7JWFWicMtQk2puKphVS-32">
+          <mxGeometry x="-0.0882" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="C7JWFWicMtQk2puKphVS-9" value="07/04" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="680" width="80" height="40" as="geometry" />
@@ -853,6 +872,17 @@
         </mxCell>
         <mxCell id="C7JWFWicMtQk2puKphVS-22" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1. 通过浦东指定方式下载&lt;font style=&quot;font-size: 12px;&quot;&gt;《&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;入学信息登记空表&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;》&lt;br&gt;2. 填写完毕通过浦东指定方式上传&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;3. 上传佐证材料&lt;br&gt;4. 浦东&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;教育部门落实信息登记工作&lt;br&gt;5.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;《上海市小学入学信息登记表》&lt;/font&gt;为入学报名的重要凭证，请妥善保管&lt;br&gt;6.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;ne-text&quot;&gt;收到登记成功&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(245, 34, 45);&quot; class=&quot;ne-text&quot;&gt;短信&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;ne-text&quot;&gt;。如没收到拨打962066.&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="340" y="280" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C7JWFWicMtQk2puKphVS-27" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. &lt;b&gt;报名登录：&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;凭孩子证件号、初始化密码登录&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff0000&quot;&gt;一网通办&lt;/font&gt;网站义务教育入学专栏，公办民办只能二选一&lt;br style=&quot;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;ne-text&quot;&gt;&amp;nbsp; &amp;nbsp; 进入“民办小学报名”页面，会出现“报名指南”，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;仔细阅读“报名指南”并勾选 xxx&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br style=&quot;&quot;&gt;2.&lt;/span&gt;&amp;nbsp;&lt;b&gt;填报志愿：&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;填写第一志愿 &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;调剂志愿（&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;同校调剂，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;区内调剂，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;集团内外区调剂&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;确认提交：&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一旦点击按钮，将完成报名，不得再次报名、更改或放弃&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;&quot; class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; min-height: 24px;&quot; class=&quot;ne-p&quot; id=&quot;uac9b9b6a&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.&amp;nbsp;&lt;/span&gt;&lt;b&gt;报名成功&lt;span style=&quot;background-color: initial;&quot;&gt;：&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C7JWFWicMtQk2puKphVS-28" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C7JWFWicMtQk2puKphVS-29" value="&lt;div class=&quot;lake-content&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot; class=&quot;ne-text&quot;&gt;公办&lt;br style=&quot;font-size: 12px;&quot;&gt;网上&lt;br style=&quot;font-size: 12px;&quot;&gt;报名&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;fontStyle=0" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="489.99764705882353" as="geometry">
+            <mxPoint x="-74" y="26" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
