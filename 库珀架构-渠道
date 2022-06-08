@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T15:38:31.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9mzYS3EiYnxoCqeApFis" version="19.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-08T15:39:44.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Exi_JxIU01NUor9iGLzQ" version="19.0.2" type="github" pages="3">
   <diagram id="FCthoAlYefOCi5CVqXwv" name="Plaid KYC">
     <mxGraphModel dx="1634" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -315,7 +315,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AFPrPVQfsj6dV5N32NVj-113" value="kucoin Web / kucoin App" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontFamily=Helvetica;" parent="1" vertex="1">
+        <mxCell id="AFPrPVQfsj6dV5N32NVj-113" value="kucoin Web / kucoin App" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="-120" y="120" width="920" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AFPrPVQfsj6dV5N32NVj-114" value="&lt;span style=&quot;&quot;&gt;5.3 绑定账户&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontColor=#FF0000;strokeColor=#FF0000;" parent="1" source="AFPrPVQfsj6dV5N32NVj-119" target="AFPrPVQfsj6dV5N32NVj-82" edge="1">
