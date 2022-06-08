@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T15:30:45.917Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LlWUC-khYwqtQmITGPjs" version="19.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-08T15:37:30.243Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="u7y_zGTg8qjhrr3ePt-_" version="19.0.2" type="github" pages="3">
   <diagram id="FCthoAlYefOCi5CVqXwv" name="Plaid KYC">
     <mxGraphModel dx="1634" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -177,8 +177,8 @@
         <mxCell id="AFPrPVQfsj6dV5N32NVj-94" value="3.1 查询绑定账户" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontColor=#00CC00;strokeColor=#00CC00;" parent="1" source="AFPrPVQfsj6dV5N32NVj-98" target="AFPrPVQfsj6dV5N32NVj-120" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="380" />
-              <mxPoint x="220" y="380" />
+              <mxPoint x="180" y="370" />
+              <mxPoint x="180" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -195,6 +195,14 @@
             <Array as="points">
               <mxPoint x="-200" y="320" />
               <mxPoint x="-200" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wDwlh9AWkdQJyZd-31BC-11" value="9.1 解绑" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;strokeColor=#00CC00;fontStyle=1" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-98" target="AFPrPVQfsj6dV5N32NVj-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="410" />
+              <mxPoint x="260" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -243,8 +251,8 @@
         <mxCell id="AFPrPVQfsj6dV5N32NVj-106" value="3.0 查询绑定账户" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontColor=#00CC00;strokeColor=#00CC00;" parent="1" source="AFPrPVQfsj6dV5N32NVj-113" target="AFPrPVQfsj6dV5N32NVj-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="250" />
-              <mxPoint x="220" y="250" />
+              <mxPoint x="180" y="220" />
+              <mxPoint x="180" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -292,6 +300,19 @@
               <mxPoint x="880" y="140" />
               <mxPoint x="880" y="940" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wDwlh9AWkdQJyZd-31BC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#00CC00;" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-113" target="AFPrPVQfsj6dV5N32NVj-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="250" />
+              <mxPoint x="260" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wDwlh9AWkdQJyZd-31BC-12" value="9.0 删除账户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;fontStyle=1" vertex="1" connectable="0" parent="wDwlh9AWkdQJyZd-31BC-10">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AFPrPVQfsj6dV5N32NVj-113" value="kucoin Web / kucoin App" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontFamily=Helvetica;" parent="1" vertex="1">
