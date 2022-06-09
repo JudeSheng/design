@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T07:47:25.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="y6pBKZridFU2sqCnW28O" version="19.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-09T07:50:11.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="kJ3hAaz7EcJYmrMDWhCO" version="19.0.2" type="github" pages="3">
   <diagram id="FCthoAlYefOCi5CVqXwv" name="Plaid KYC">
     <mxGraphModel dx="1634" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,8 +23,8 @@
         <mxCell id="AFPrPVQfsj6dV5N32NVj-68" value="&lt;span style=&quot;&quot;&gt;6.8 风控校验&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontColor=#FF0000;strokeColor=#FF0000;" parent="1" source="AFPrPVQfsj6dV5N32NVj-74" target="AFPrPVQfsj6dV5N32NVj-104" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-60" y="630" />
-              <mxPoint x="-60" y="630" />
+              <mxPoint x="-100" y="610" />
+              <mxPoint x="-100" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -49,6 +49,14 @@
             <Array as="points">
               <mxPoint x="740" y="660" />
               <mxPoint x="740" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-3" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;6.11 风控埋点&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-74" target="AFPrPVQfsj6dV5N32NVj-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="630" />
+              <mxPoint x="-20" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -239,7 +247,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-t3py-cZlmDRDRQrpxB-2" value="6.11 风控数据埋点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-104" target="l-t3py-cZlmDRDRQrpxB-1">
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-2" value="6.12 风控数据埋点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-104" target="l-t3py-cZlmDRDRQrpxB-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-60" y="700" />
