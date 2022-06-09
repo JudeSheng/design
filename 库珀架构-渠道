@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T07:50:11.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="kJ3hAaz7EcJYmrMDWhCO" version="19.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-09T13:42:55.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="B2TCoU9mJ2tmxplnv8tu" version="19.0.2" type="github" pages="3">
   <diagram id="FCthoAlYefOCi5CVqXwv" name="Plaid KYC">
     <mxGraphModel dx="1634" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,7 +174,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AFPrPVQfsj6dV5N32NVj-94" value="3.1 查询绑定账户" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontColor=#00CC00;strokeColor=#00CC00;" parent="1" source="AFPrPVQfsj6dV5N32NVj-98" target="AFPrPVQfsj6dV5N32NVj-120" edge="1">
+        <mxCell id="AFPrPVQfsj6dV5N32NVj-94" value="3.1 查询绑定账户&lt;br&gt;查询绑定限数量" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontColor=#00CC00;strokeColor=#00CC00;" parent="1" source="AFPrPVQfsj6dV5N32NVj-98" target="AFPrPVQfsj6dV5N32NVj-120" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="370" />
@@ -239,7 +239,7 @@
             <mxPoint x="30" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ruQczoPY6HoYggB7SIIh-1" value="6.6 获取 KYC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-104" target="AFPrPVQfsj6dV5N32NVj-83">
+        <mxCell id="ruQczoPY6HoYggB7SIIh-1" value="6.7 获取 KYC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-104" target="AFPrPVQfsj6dV5N32NVj-83">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-160" y="660" />
@@ -266,7 +266,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AFPrPVQfsj6dV5N32NVj-106" value="3.0 查询绑定账户" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontColor=#00CC00;strokeColor=#00CC00;" parent="1" source="AFPrPVQfsj6dV5N32NVj-113" target="AFPrPVQfsj6dV5N32NVj-98" edge="1">
+        <mxCell id="AFPrPVQfsj6dV5N32NVj-106" value="3.0 查询绑定账户&lt;br&gt;查询绑定限数量" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontColor=#00CC00;strokeColor=#00CC00;" parent="1" source="AFPrPVQfsj6dV5N32NVj-113" target="AFPrPVQfsj6dV5N32NVj-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="220" />
@@ -328,7 +328,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wDwlh9AWkdQJyZd-31BC-12" value="9.0 删除账户&lt;br&gt;设置默认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;fontStyle=1" vertex="1" connectable="0" parent="wDwlh9AWkdQJyZd-31BC-10">
+        <mxCell id="wDwlh9AWkdQJyZd-31BC-12" value="9.0 解绑账户&lt;br&gt;设置默认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;fontStyle=1" vertex="1" connectable="0" parent="wDwlh9AWkdQJyZd-31BC-10">
           <mxGeometry x="-0.025" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
