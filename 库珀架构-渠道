@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T14:12:20.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Iao3XDMAmlOVlTYrXpWI" version="19.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-10T14:14:26.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="TJvKxwZSj1ZkCkwuhrYv" version="19.0.2" type="github" pages="4">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
-    <mxGraphModel dx="2045" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1634" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I2tSOAuVkXb7U9aSonbr-0" />
         <mxCell id="I2tSOAuVkXb7U9aSonbr-1" parent="I2tSOAuVkXb7U9aSonbr-0" />
@@ -16,19 +16,11 @@
         <mxCell id="I2tSOAuVkXb7U9aSonbr-21" value="payment-api" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="I2tSOAuVkXb7U9aSonbr-1">
           <mxGeometry x="-80" y="280" width="1040" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I2tSOAuVkXb7U9aSonbr-22" value="充值" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;sketch=1;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" edge="1" parent="I2tSOAuVkXb7U9aSonbr-1" source="I2tSOAuVkXb7U9aSonbr-23" target="I2tSOAuVkXb7U9aSonbr-38">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-319" y="100" />
-            </Array>
-            <mxPoint x="-120" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="I2tSOAuVkXb7U9aSonbr-23" value="用户" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Users.svg;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" vertex="1" parent="I2tSOAuVkXb7U9aSonbr-1">
-          <mxGeometry x="-360" y="86.09000000000003" width="62" height="67.81" as="geometry" />
-        </mxCell>
         <mxCell id="I2tSOAuVkXb7U9aSonbr-29" value="&lt;span style=&quot;&quot;&gt;payment-risk-adaptor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=0;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="I2tSOAuVkXb7U9aSonbr-1">
           <mxGeometry x="-360" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_E9wHjtMl_E0WKDrvWDQ-0" value="1.0 KYC" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#000000;endArrow=classic;strokeColor=#000000;" edge="1" parent="I2tSOAuVkXb7U9aSonbr-1" source="I2tSOAuVkXb7U9aSonbr-38" target="I2tSOAuVkXb7U9aSonbr-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I2tSOAuVkXb7U9aSonbr-38" value="KuCoin Web / KuCoin App" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;fillColor=#f5f5f5;fontColor=#000000;strokeColor=#666666;" vertex="1" parent="I2tSOAuVkXb7U9aSonbr-1">
           <mxGeometry x="-160" y="80" width="880" height="80" as="geometry" />
