@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T02:54:01.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5Qw5Gwm2xXMTfkxeKLqo" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-21T14:25:40.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="7r9UJbDqBtYc2EsMdN3j" version="20.1.3" type="github" pages="5">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
-    <mxGraphModel dx="2457" dy="1443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I2tSOAuVkXb7U9aSonbr-0" />
         <mxCell id="I2tSOAuVkXb7U9aSonbr-1" parent="I2tSOAuVkXb7U9aSonbr-0" />
@@ -98,14 +98,14 @@
             <mxPoint x="1031" y="-0.07499999999987494" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ojn5WjK-ofvjzWZtwKM-0" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="I2tSOAuVkXb7U9aSonbr-1">
+        <mxCell id="4ojn5WjK-ofvjzWZtwKM-0" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;fillColor=#d5e8d4;strokeColor=#82b366;" parent="I2tSOAuVkXb7U9aSonbr-1" vertex="1">
           <mxGeometry x="-80" y="180" width="1040" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="FCthoAlYefOCi5CVqXwv" name="Plaid KYC">
-    <mxGraphModel dx="2434" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1986" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-t3py-cZlmDRDRQrpxB-14" value="&lt;b&gt;6. 5 identity&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-82" target="AFPrPVQfsj6dV5N32NVj-128">
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-14" value="&lt;b&gt;6. 5 identity&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" parent="1" source="AFPrPVQfsj6dV5N32NVj-82" target="AFPrPVQfsj6dV5N32NVj-128" edge="1">
           <mxGeometry x="0.5" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="830" />
@@ -166,7 +166,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-t3py-cZlmDRDRQrpxB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-82" target="AFPrPVQfsj6dV5N32NVj-125">
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" parent="1" source="AFPrPVQfsj6dV5N32NVj-82" target="AFPrPVQfsj6dV5N32NVj-125" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-140" y="840" />
@@ -174,7 +174,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-t3py-cZlmDRDRQrpxB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-82" target="AFPrPVQfsj6dV5N32NVj-125">
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" parent="1" source="AFPrPVQfsj6dV5N32NVj-82" target="AFPrPVQfsj6dV5N32NVj-125" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-60" y="840" />
@@ -245,7 +245,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wDwlh9AWkdQJyZd-31BC-11" value="9.1 解绑&lt;br&gt;设置默认" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;strokeColor=#00CC00;fontStyle=1" edge="1" parent="1">
+        <mxCell id="wDwlh9AWkdQJyZd-31BC-11" value="9.1 解绑&lt;br&gt;设置默认" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;strokeColor=#00CC00;fontStyle=1" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-610" y="900" as="sourcePoint" />
             <mxPoint x="-480" y="900" as="targetPoint" />
@@ -258,7 +258,7 @@
         <mxCell id="AFPrPVQfsj6dV5N32NVj-98" value="payment-api" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="-160" y="280" width="1040" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AFPrPVQfsj6dV5N32NVj-99" value="充值" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;sketch=1;fontFamily=Helvetica;fontStyle=1" parent="1" source="AFPrPVQfsj6dV5N32NVj-100" edge="1" target="AFPrPVQfsj6dV5N32NVj-113">
+        <mxCell id="AFPrPVQfsj6dV5N32NVj-99" value="充值" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;sketch=1;fontFamily=Helvetica;fontStyle=1" parent="1" source="AFPrPVQfsj6dV5N32NVj-100" target="AFPrPVQfsj6dV5N32NVj-113" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-230" y="160" />
@@ -288,7 +288,7 @@
             <mxPoint x="-560" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-t3py-cZlmDRDRQrpxB-2" value="6.12 风控数据埋点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-104" target="l-t3py-cZlmDRDRQrpxB-1">
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-2" value="6.12 风控数据埋点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;fontStyle=1" parent="1" source="AFPrPVQfsj6dV5N32NVj-104" target="l-t3py-cZlmDRDRQrpxB-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-650" y="630" />
@@ -296,7 +296,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-t3py-cZlmDRDRQrpxB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-104" target="AFPrPVQfsj6dV5N32NVj-83">
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" parent="1" source="AFPrPVQfsj6dV5N32NVj-104" target="AFPrPVQfsj6dV5N32NVj-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFPrPVQfsj6dV5N32NVj-104" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;payment-risk-adaptor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=0;fontFamily=Helvetica;" parent="1" vertex="1">
@@ -347,7 +347,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wDwlh9AWkdQJyZd-31BC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#00CC00;" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-113" target="AFPrPVQfsj6dV5N32NVj-98">
+        <mxCell id="wDwlh9AWkdQJyZd-31BC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#00CC00;" parent="1" source="AFPrPVQfsj6dV5N32NVj-113" target="AFPrPVQfsj6dV5N32NVj-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="260" y="250" />
@@ -355,7 +355,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wDwlh9AWkdQJyZd-31BC-12" value="9.0 解绑账户&lt;br&gt;设置默认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;fontStyle=1" vertex="1" connectable="0" parent="wDwlh9AWkdQJyZd-31BC-10">
+        <mxCell id="wDwlh9AWkdQJyZd-31BC-12" value="9.0 解绑账户&lt;br&gt;设置默认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;fontStyle=1" parent="wDwlh9AWkdQJyZd-31BC-10" vertex="1" connectable="0">
           <mxGeometry x="-0.025" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -382,7 +382,7 @@
         <mxCell id="AFPrPVQfsj6dV5N32NVj-124" value="&lt;span style=&quot;&quot;&gt;payment-fee-engine&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="540" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l-t3py-cZlmDRDRQrpxB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="AFPrPVQfsj6dV5N32NVj-125" target="AFPrPVQfsj6dV5N32NVj-128">
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" parent="1" source="AFPrPVQfsj6dV5N32NVj-125" target="AFPrPVQfsj6dV5N32NVj-128" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFPrPVQfsj6dV5N32NVj-125" value="payment-channel-config" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -391,14 +391,14 @@
         <mxCell id="AFPrPVQfsj6dV5N32NVj-128" value="Plaid" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry y="880" width="880" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="l-t3py-cZlmDRDRQrpxB-1" value="data-house" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="l-t3py-cZlmDRDRQrpxB-1" value="data-house" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="-550" y="650" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Q9v8GAeCKbsvqhTteF9G" name="SEPA 3.0">
-    <mxGraphModel dx="1634" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -716,7 +716,7 @@
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H7ARTwQcwidsS6phzxXA-1" value="&lt;span style=&quot;color: rgb(255, 0, 0); font-weight: 700;&quot;&gt;4.4 数据埋点&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;strokeColor=#FF0000;" edge="1" parent="1" source="X2i8U2-tl0LoCOLVc7Jv-25" target="UL6CfB9WmNhMiQcMDrfn-1">
+        <mxCell id="H7ARTwQcwidsS6phzxXA-1" value="&lt;span style=&quot;color: rgb(255, 0, 0); font-weight: 700;&quot;&gt;4.4 数据埋点&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;strokeColor=#FF0000;" parent="1" source="X2i8U2-tl0LoCOLVc7Jv-25" target="UL6CfB9WmNhMiQcMDrfn-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="790" />
@@ -765,7 +765,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AKDUNLeBLl_5oY7XmHpM" name="Plaid">
-    <mxGraphModel dx="1634" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1634" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1210,6 +1210,113 @@
         </mxCell>
         <mxCell id="VxNweldmRZrFVYpEPJhj-2" value="risk" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="1120" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="c_C8J25Al7-qlKKnSXl-" name="第 5 页">
+    <mxGraphModel dx="1234" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-1" value="payment-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-2" value="payment-channel-config" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-3" value="payment-core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-10" value="xv1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="500" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-4" value="channel-core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-5" value="payment-method" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-6" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299.5" y="270" as="sourcePoint" />
+            <mxPoint x="299.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-9" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299.5" y="390" as="sourcePoint" />
+            <mxPoint x="299.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=none;" edge="1" parent="1" source="D90UVCdvzgJ_9MC-zWzv-27" target="D90UVCdvzgJ_9MC-zWzv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-11" value="channel-plaid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-14" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299.5" y="510" as="sourcePoint" />
+            <mxPoint x="299.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-16" value="payment-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-17" value="payment-channel-config" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-18" value="payment-core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-19" value="xv1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="470" as="sourcePoint" />
+            <mxPoint x="1140" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-20" value="channel-core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-21" value="payment-method" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-22" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="939.5" y="270" as="sourcePoint" />
+            <mxPoint x="939.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-23" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="939.5" y="390" as="sourcePoint" />
+            <mxPoint x="939.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D90UVCdvzgJ_9MC-zWzv-25" target="D90UVCdvzgJ_9MC-zWzv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-25" value="channel-plaid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-26" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="939.5" y="510" as="sourcePoint" />
+            <mxPoint x="939.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-1/24/circle-x-128.png;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=none;" edge="1" parent="1" source="D90UVCdvzgJ_9MC-zWzv-11" target="D90UVCdvzgJ_9MC-zWzv-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="590" as="sourcePoint" />
+            <mxPoint x="100" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
