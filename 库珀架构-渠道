@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T15:04:58.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="l_QWo4YNfYMxd_HOJS4e" version="20.1.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-21T15:10:43.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="zIIBLJoN9ufaPQU7R-Fk" version="20.1.3" type="github" pages="5">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
     <mxGraphModel dx="1186" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1278,8 +1278,8 @@
         </mxCell>
         <mxCell id="D90UVCdvzgJ_9MC-zWzv-19" value="xv1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="470" as="sourcePoint" />
-            <mxPoint x="1140" y="400" as="targetPoint" />
+            <mxPoint x="1020" y="460" as="sourcePoint" />
+            <mxPoint x="1140" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D90UVCdvzgJ_9MC-zWzv-20" value="channel-core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
@@ -1330,56 +1330,29 @@
             <mxPoint x="1270" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-31" value="payment-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="680" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-32" value="payment-channel-config" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="680" y="920" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-33" value="payment-core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="880" y="800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-35" value="channel-core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="880" y="920" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-36" value="payment-method" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-37" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="939.5" y="750" as="sourcePoint" />
-            <mxPoint x="939.5" y="790" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-38" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="939.5" y="870" as="sourcePoint" />
-            <mxPoint x="939.5" y="910" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D90UVCdvzgJ_9MC-zWzv-40" target="D90UVCdvzgJ_9MC-zWzv-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-40" value="channel-plaid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1040" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-41" value="xv1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="939.5" y="990" as="sourcePoint" />
-            <mxPoint x="939.5" y="1030" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-42" value="u-center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="D90UVCdvzgJ_9MC-zWzv-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1220" y="830" as="sourcePoint" />
-            <mxPoint x="1270" y="830" as="targetPoint" />
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="540" as="sourcePoint" />
+            <mxPoint x="1020" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="480" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="D90UVCdvzgJ_9MC-zWzv-44" value="channel-callback" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-48" value="payment-accounting" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="350" as="sourcePoint" />
+            <mxPoint x="810" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D90UVCdvzgJ_9MC-zWzv-50" value="如何带上x-version ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="495" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
