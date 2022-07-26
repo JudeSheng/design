@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T03:14:42.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="RuM9pxfFSX-hxLH2Vk1S" version="20.1.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-26T04:48:59.895Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="59oI6XevOkLXQmKoMF6a" version="20.1.3" type="github" pages="6">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
     <mxGraphModel dx="1852" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1323,7 +1323,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="R9ERum7QSOAvZXs6FJ0Q-4" value="SFTP：下载清算文件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="R9ERum7QSOAvZXs6FJ0Q-2" target="R9ERum7QSOAvZXs6FJ0Q-3">
+        <mxCell id="R9ERum7QSOAvZXs6FJ0Q-4" value="SFTP/HTTP：下载清算文件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="R9ERum7QSOAvZXs6FJ0Q-2" target="R9ERum7QSOAvZXs6FJ0Q-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R9ERum7QSOAvZXs6FJ0Q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="R9ERum7QSOAvZXs6FJ0Q-2" target="R9ERum7QSOAvZXs6FJ0Q-8">
@@ -1432,7 +1432,7 @@
           <mxGeometry x="-250" y="160" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R9ERum7QSOAvZXs6FJ0Q-35" value="kafka / binlog&lt;br&gt;fee&lt;br&gt;cost&lt;br&gt;结算&lt;br&gt;ledger&lt;br&gt;采购" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="155" y="-80" width="90" height="100" as="geometry" />
+          <mxGeometry x="-500" y="-190" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="R9ERum7QSOAvZXs6FJ0Q-36" value="金额&lt;br&gt;Cost&lt;br&gt;fx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="40" y="100" width="50" height="60" as="geometry" />
@@ -1474,6 +1474,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="R9ERum7QSOAvZXs6FJ0Q-65" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;银行流水&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="R9ERum7QSOAvZXs6FJ0Q-52">
+          <mxGeometry x="-0.06" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="R9ERum7QSOAvZXs6FJ0Q-51" value="财务系统" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-280" y="420" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1491,6 +1496,15 @@
         </mxCell>
         <mxCell id="R9ERum7QSOAvZXs6FJ0Q-60" value="OTC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-135" y="845" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R9ERum7QSOAvZXs6FJ0Q-62" value="1. 清结算文件获取：权限、清算条目匹配id、结算周期&lt;br&gt;2. 文件清洗落库：通用性" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-35" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R9ERum7QSOAvZXs6FJ0Q-63" value="error-collection" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9ERum7QSOAvZXs6FJ0Q-64" value="多账&lt;br&gt;少账&lt;br&gt;账不平：状态&lt;br&gt;账不平：金额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
