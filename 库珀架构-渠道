@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T10:27:33.769Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="Ariv5OxQiKYNj1JDCA1g" version="20.1.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-26T10:34:35.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="wHqT_OIEwVLN9N1UIzAS" version="20.1.3" type="github" pages="7">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
     <mxGraphModel dx="2457" dy="1443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1802,10 +1802,11 @@
         <mxCell id="qaBIdPhtdhXjpji8o0VK-1" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="-520" y="-20" width="800" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qaBIdPhtdhXjpji8o0VK-3" value="1.7 清洗渠道文件：发送通用消息" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="19.5" y="-90" as="sourcePoint" />
-            <mxPoint x="19.5" y="-30" as="targetPoint" />
+        <mxCell id="qaBIdPhtdhXjpji8o0VK-3" value="1.7 清洗渠道清算文件&lt;br&gt;发送通用消息" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="-0.6667" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="-90" as="sourcePoint" />
+            <mxPoint x="-30" y="-30" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qaBIdPhtdhXjpji8o0VK-4" value="&amp;nbsp;2.0 发送交易单领域消息" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
@@ -1839,10 +1840,10 @@
         <mxCell id="RQSisF-Oh7NrocsWGnpZ-3" value="" style="shape=lineEllipse;line=vertical;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-140" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RQSisF-Oh7NrocsWGnpZ-6" value="交&lt;br&gt;易&lt;br&gt;流&lt;br&gt;水" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="RQSisF-Oh7NrocsWGnpZ-6" value="交&lt;br&gt;易&lt;br&gt;流&lt;br&gt;水" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;horizontal=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-140" y="85" width="40" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RQSisF-Oh7NrocsWGnpZ-7" value="渠&lt;br&gt;道&lt;br&gt;流&lt;br&gt;水" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="RQSisF-Oh7NrocsWGnpZ-7" value="渠&lt;br&gt;道&lt;br&gt;流&lt;br&gt;水" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000FF;horizontal=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-100" y="85" width="40" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RQSisF-Oh7NrocsWGnpZ-11" value="recon&lt;br&gt;ciliation" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
@@ -1863,10 +1864,10 @@
         <mxCell id="7r1n_uQXbhcc7Aaa_kLN-2" value="" style="shape=lineEllipse;line=vertical;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="100" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7r1n_uQXbhcc7Aaa_kLN-3" value="渠&lt;br&gt;道&lt;br&gt;流&lt;br&gt;水" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="7r1n_uQXbhcc7Aaa_kLN-3" value="渠&lt;br&gt;道&lt;br&gt;流&lt;br&gt;水" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000FF;horizontal=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="100" y="85" width="40" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7r1n_uQXbhcc7Aaa_kLN-4" value="渠&lt;br&gt;道&lt;br&gt;结&lt;br&gt;算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="7r1n_uQXbhcc7Aaa_kLN-4" value="渠&lt;br&gt;道&lt;br&gt;结&lt;br&gt;算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#00CC00;horizontal=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="140" y="85" width="40" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7r1n_uQXbhcc7Aaa_kLN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1">
@@ -1887,6 +1888,13 @@
               <mxPoint x="260" y="10" />
               <mxPoint x="260" y="100" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r1n_uQXbhcc7Aaa_kLN-7" value="3.7 清洗渠道清算文件&lt;br&gt;发送通用消息" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="0.3333" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="-90" as="sourcePoint" />
+            <mxPoint x="70" y="-30" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
