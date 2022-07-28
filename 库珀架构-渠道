@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T06:54:37.433Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="usAx6HpbwDpGkrgxXHpt" version="20.1.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-28T06:07:22.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="LQ1D_VMTq7OGUKY9z6Cd" version="20.1.3" type="github" pages="7">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
     <mxGraphModel dx="2457" dy="1443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1578,12 +1578,12 @@
         <mxCell id="019ecKEuP6lTNrBHB7ui-3" value="channel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="-380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="019ecKEuP6lTNrBHB7ui-64" value="1.1 获取渠道文件&lt;br&gt;secret信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="019ecKEuP6lTNrBHB7ui-4" target="019ecKEuP6lTNrBHB7ui-63">
-          <mxGeometry x="-0.4231" relative="1" as="geometry">
-            <mxPoint x="-390" y="-330" as="targetPoint" />
+        <mxCell id="019ecKEuP6lTNrBHB7ui-64" value="1.1 获取渠道文件&lt;br&gt;config 信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="019ecKEuP6lTNrBHB7ui-4" target="rP9PZnv_H9zrGnaPZ4t9-30">
+          <mxGeometry x="0.0667" y="-10" relative="1" as="geometry">
+            <mxPoint x="-310" y="-470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-270" y="-370" />
-              <mxPoint x="-270" y="-370" />
+              <mxPoint x="-120" y="-350" />
+              <mxPoint x="-120" y="-350" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1979,6 +1979,9 @@
         </mxCell>
         <mxCell id="rP9PZnv_H9zrGnaPZ4t9-27" value="elastic-job" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/SchedulerJobCollection.svg;fontColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="330" y="119" width="70.93" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="rP9PZnv_H9zrGnaPZ4t9-30" value="file_config" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-390" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
