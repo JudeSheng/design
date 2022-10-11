@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T18:26:54.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ENlXUVJfmFcZlmIvJXej" version="20.3.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-10-11T02:48:28.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jVJZQ4BXwJ8yO89HftBu" version="20.3.7" type="github" pages="5">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="3485" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="领域划分图 - 钱包" id="kpElmkjplSCEtDlpfAr3">
-    <mxGraphModel dx="244" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2753" dy="3447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Gea9302BPGgyh3ujzQc1-0" />
         <mxCell id="Gea9302BPGgyh3ujzQc1-1" parent="Gea9302BPGgyh3ujzQc1-0" />
@@ -555,13 +555,13 @@
         <mxCell id="M3Y2o28_7YV7-5Rsg_cE-182" value="渠道通知" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="3378.13" y="2120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M3Y2o28_7YV7-5Rsg_cE-183" value="支付风控 / 大数据埋点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
+        <mxCell id="M3Y2o28_7YV7-5Rsg_cE-183" value="支付风控 / 大数据埋点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;fontColor=#FF0000;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="2958.75" y="1910" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M3Y2o28_7YV7-5Rsg_cE-184" value="API Key 管控" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="2958.13" y="2120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M3Y2o28_7YV7-5Rsg_cE-185" value="支付工具绑定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
+        <mxCell id="M3Y2o28_7YV7-5Rsg_cE-185" value="支付工具绑定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;fontColor=#FF0000;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="2818.75" y="1920" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M3Y2o28_7YV7-5Rsg_cE-187" value="法币入金" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
@@ -582,8 +582,8 @@
         <mxCell id="ekN4HTvC7qgi8837G3at-13" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;交易单生命周期&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="3029.18" y="1150" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ekN4HTvC7qgi8837G3at-20" value="收银台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
-          <mxGeometry x="3029.18" y="1080" width="120" height="50" as="geometry" />
+        <mxCell id="ekN4HTvC7qgi8837G3at-20" value="运营后台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
+          <mxGeometry x="3190" y="1085" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ekN4HTvC7qgi8837G3at-21" value="优惠策略" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="3420" y="1120" width="120" height="50" as="geometry" />
@@ -648,7 +648,7 @@
         <mxCell id="ET_sOruqyK16opqdB5BW-11" value="大数据" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="2390" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4FCr0jxLQ_nDCWK2jgBy-0" value="渠道开关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
+        <mxCell id="4FCr0jxLQ_nDCWK2jgBy-0" value="渠道开关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;shadow=1;fontColor=#FF0000;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="3100" y="1960" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4FCr0jxLQ_nDCWK2jgBy-1" value="账户余额校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
@@ -666,7 +666,7 @@
         <mxCell id="PCHN8WWM0pY4iBroSiST-2" value="法币出金" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="2680" y="1920" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PCHN8WWM0pY4iBroSiST-3" value="入金撤销" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
+        <mxCell id="PCHN8WWM0pY4iBroSiST-3" value="入金撤销" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;fontColor=#FF0000;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="2959.38" y="1960" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PCHN8WWM0pY4iBroSiST-4" value="平台 KYC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
@@ -706,7 +706,7 @@
             <mxPoint x="2940" y="1850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LifH1qKOzI14TY27HlLl-5" value="补偿查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
+        <mxCell id="LifH1qKOzI14TY27HlLl-5" value="补偿查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;shadow=1;fontColor=#FF0000;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="2959.38" y="2010" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LifH1qKOzI14TY27HlLl-9" value="支付控制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=18;" vertex="1" connectable="0" parent="Gea9302BPGgyh3ujzQc1-1">
@@ -733,7 +733,7 @@
             <mxPoint x="3360" y="1850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M3Y2o28_7YV7-5Rsg_cE-186" value="渠道 KYC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
+        <mxCell id="M3Y2o28_7YV7-5Rsg_cE-186" value="渠道 KYC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;fontColor=#FF0000;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="2818.75" y="1860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LifH1qKOzI14TY27HlLl-15" value="渠道币种金额限制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
@@ -819,6 +819,9 @@
         </mxCell>
         <mxCell id="LifH1qKOzI14TY27HlLl-43" value="法币出金" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
           <mxGeometry x="3905.62" y="1750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gsapMtNHmi2ontwmMmEz-0" value="收银台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;shadow=1;" vertex="1" parent="Gea9302BPGgyh3ujzQc1-1">
+          <mxGeometry x="3029.18" y="1080" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
