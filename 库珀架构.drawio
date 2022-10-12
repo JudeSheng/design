@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T09:41:15.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="pAi4H3bWYIJ0vlOQEM9v" version="20.3.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-10-12T09:44:42.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="eoosCRxKLui-qya65zy3" version="20.3.7" type="github" pages="5">
   <diagram name="系统架构图" id="tnhVkNfing4BkGrNmouK">
     <mxGraphModel dx="3965" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="领域划分图 - 钱包" id="kpElmkjplSCEtDlpfAr3">
-    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="342" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Gea9302BPGgyh3ujzQc1-0" />
         <mxCell id="Gea9302BPGgyh3ujzQc1-1" parent="Gea9302BPGgyh3ujzQc1-0" />
@@ -567,10 +567,13 @@
     </mxGraphModel>
   </diagram>
   <diagram name="服务分层图 - 钱包" id="2VRoZ5ay-7QM8g5f09Ul">
-    <mxGraphModel dx="1943" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2457" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="pbSPU-_4sizzBS3aqKC7-0" />
         <mxCell id="pbSPU-_4sizzBS3aqKC7-1" parent="pbSPU-_4sizzBS3aqKC7-0" />
+        <mxCell id="OmYx7Vi7Tp5spPVIVUdH-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;dashed=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="pbSPU-_4sizzBS3aqKC7-1">
+          <mxGeometry x="-160" y="160" width="1480" height="760" as="geometry" />
+        </mxCell>
         <mxCell id="JMJxVZs1Jvafz7K0_v4j-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;gradientDirection=north;glass=0;shadow=0;sketch=1;fillStyle=solid;align=left;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;spacing=30;spacingTop=0;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Courier New;" vertex="1" parent="pbSPU-_4sizzBS3aqKC7-1">
           <mxGeometry x="240" y="600" width="790" height="80" as="geometry" />
         </mxCell>
