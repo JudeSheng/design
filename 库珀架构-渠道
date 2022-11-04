@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T11:43:50.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="D_Wd_YwEHmLt5d-Yvno9" version="20.5.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-11-04T11:46:26.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="_rbFMDhFt6wvia-vVlZW" version="20.5.1" type="github" pages="7">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
     <mxGraphModel dx="2298" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1743,7 +1743,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ui3aJmcKyi9HXHC36eb7" name="Finaro / CKO">
-    <mxGraphModel dx="2061" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2472" dy="2228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2160,6 +2160,42 @@
             </Array>
             <mxPoint x="-150" y="-300" as="targetPoint" />
             <mxPoint x="-89" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daspDOHEVF_RZGlLp0zr-38" value="验卡" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;sketch=1;fontFamily=Helvetica;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20.41000000000001" y="-560" />
+            </Array>
+            <mxPoint x="-20.409999999999926" y="-510" as="targetPoint" />
+            <mxPoint x="-20.409999999999926" y="-570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daspDOHEVF_RZGlLp0zr-39" value="预授权" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;sketch=1;fontFamily=Helvetica;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70.58999999999996" y="-560" />
+            </Array>
+            <mxPoint x="70.59000000000007" y="-510" as="targetPoint" />
+            <mxPoint x="70.59000000000007" y="-570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daspDOHEVF_RZGlLp0zr-40" value="预授权&lt;br&gt;结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;sketch=1;fontFamily=Helvetica;fontStyle=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118.35999999999994" y="-560" />
+            </Array>
+            <mxPoint x="118.36000000000006" y="-570" as="targetPoint" />
+            <mxPoint x="118.36000000000006" y="-510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daspDOHEVF_RZGlLp0zr-41" value="请款" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;sketch=1;fontFamily=Helvetica;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199.58999999999997" y="-560" />
+            </Array>
+            <mxPoint x="199.5900000000001" y="-510" as="targetPoint" />
+            <mxPoint x="199.5900000000001" y="-570" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
