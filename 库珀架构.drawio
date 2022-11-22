@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:00:52.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BnqG_X0pIc9D8n1OJRlQ" version="20.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-22T09:05:25.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bF7v1bMS5930t-P4h2yG" version="20.5.3" type="github" pages="5">
   <diagram name="领域划分图 - 钱包" id="kpElmkjplSCEtDlpfAr3">
     <mxGraphModel dx="-974" dy="-6" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1233,16 +1233,7 @@
           <mxGeometry x="840" y="-480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-34" value="channel-core card payin 状态机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-640" width="600" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fZsnUXrDEfs6UXS2GmNK-36" value="&lt;div style=&quot;text-align: center;&quot;&gt;eci校验失败&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-37" target="fZsnUXrDEfs6UXS2GmNK-44">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-580" y="190" />
-              <mxPoint x="-580" y="190" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="-680" width="640" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-54" value="3DS验证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-37" target="fZsnUXrDEfs6UXS2GmNK-53">
           <mxGeometry relative="1" as="geometry" />
@@ -1250,8 +1241,8 @@
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-55" value="设备采集" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-37" target="fZsnUXrDEfs6UXS2GmNK-52">
           <mxGeometry x="0.1818" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-440" y="210" />
-              <mxPoint x="-440" y="110" />
+              <mxPoint x="-550" y="60" />
+              <mxPoint x="-140" y="60" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1268,6 +1259,15 @@
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-62" value="过期" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-37" target="fZsnUXrDEfs6UXS2GmNK-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fZsnUXrDEfs6UXS2GmNK-65" value="Auth失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-37" target="fZsnUXrDEfs6UXS2GmNK-47">
+          <mxGeometry x="0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-440" y="210" />
+              <mxPoint x="-440" y="110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-37" value="PENDING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-640" y="200" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1277,40 +1277,62 @@
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-63" value="过期：doVoid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-43" target="fZsnUXrDEfs6UXS2GmNK-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fZsnUXrDEfs6UXS2GmNK-67" value="eci校验失败&lt;br&gt;doVoid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-43" target="fZsnUXrDEfs6UXS2GmNK-44">
+          <mxGeometry x="0.1905" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-400" y="370" />
+              <mxPoint x="-400" y="470" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-43" value="PROCESSING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="-200" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-44" value="VALIDATION_FAILED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFDEDB;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="-640" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-47" value="FAILED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="-420" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-48" value="SUCCEEDED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="-200" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-50" value="EXPIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-640" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fZsnUXrDEfs6UXS2GmNK-56" value="3DS验证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-52" target="fZsnUXrDEfs6UXS2GmNK-53">
+        <mxCell id="fZsnUXrDEfs6UXS2GmNK-56" value="&lt;font color=&quot;#ff0000&quot;&gt;92&lt;/font&gt;&lt;br&gt;3DS验证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-52" target="fZsnUXrDEfs6UXS2GmNK-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fZsnUXrDEfs6UXS2GmNK-61" value="?" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-52">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-180" y="110" as="targetPoint" />
+        <mxCell id="fZsnUXrDEfs6UXS2GmNK-61" value="&lt;font color=&quot;#ff0000&quot;&gt;92&lt;/font&gt;&lt;br&gt;Authorized" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-52" target="fZsnUXrDEfs6UXS2GmNK-43">
+          <mxGeometry x="-0.3571" relative="1" as="geometry">
+            <mxPoint x="20" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="110" />
+              <mxPoint x="-50" y="330" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fZsnUXrDEfs6UXS2GmNK-66" value="Auth失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-52" target="fZsnUXrDEfs6UXS2GmNK-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-52" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;PENDING_3DS&lt;br/&gt;_COMPLETION&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="-200" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-57" value="Authorized" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-53" target="fZsnUXrDEfs6UXS2GmNK-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fZsnUXrDEfs6UXS2GmNK-60" value="验证失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-53" target="fZsnUXrDEfs6UXS2GmNK-47">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fZsnUXrDEfs6UXS2GmNK-64" value="验证失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fZsnUXrDEfs6UXS2GmNK-53" target="fZsnUXrDEfs6UXS2GmNK-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="210" />
+              <mxPoint x="-240" y="130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fZsnUXrDEfs6UXS2GmNK-53" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;PENDING_3DS_&lt;br/&gt;AUTHENTICATION&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="-200" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
