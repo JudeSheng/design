@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T13:12:20.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gnnNmfh1BDrOwFQts7z_" version="20.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-06T02:18:24.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="QBBV8cYyyqPBQSb1IRXK" version="20.6.0" type="github" pages="7">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
-    <mxGraphModel dx="1634" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1634" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I2tSOAuVkXb7U9aSonbr-0" />
         <mxCell id="I2tSOAuVkXb7U9aSonbr-1" parent="I2tSOAuVkXb7U9aSonbr-0" />
@@ -1743,7 +1743,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ui3aJmcKyi9HXHC36eb7" name="Finaro / CKO">
-    <mxGraphModel dx="1900" dy="1859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2061" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2318,110 +2318,116 @@
         <mxCell id="i0oNSk2k6F_m0z_-XvdW-11" value="&lt;span style=&quot;&quot;&gt;payment-risk-adaptor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="440" y="-540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-1" value="8888-FEE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-1" value="8888-FEE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1239" y="-920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-2" value="uid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-2" value="uid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="-920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-3" value="1.1 97 USD" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-3" value="1.1 97 USD" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1200" y="-970" as="sourcePoint" />
             <mxPoint x="1099.66" y="-930.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-4" value="1.2 3 USD" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-4" value="1.2 3 USD" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1200" y="-970" as="sourcePoint" />
             <mxPoint x="1298.6599999999999" y="-930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-5" value="1. 充值&lt;br&gt;100 USD" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-5" value="1. 充值&lt;br&gt;100 USD" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1199" y="-1040" as="sourcePoint" />
             <mxPoint x="1199" y="-970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-7" value="8888-FINARO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-7" value="8888-FINARO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1599" y="-960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-8" value="uid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-8" value="uid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="-920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-11" value="2. 转账&lt;br&gt;100 USDT" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-11" value="2. 转账&lt;br&gt;100 USDT" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1460" y="-1010" as="sourcePoint" />
             <mxPoint x="1459.66" y="-930.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-12" value="1. 转账&lt;br&gt;97USD" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-12" value="1. 转账&lt;br&gt;97USD" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1530" y="-891" as="sourcePoint" />
             <mxPoint x="1590" y="-930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-13" value="VISA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-13" value="VISA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="-1080" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-14" value="8888-FEE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-14" value="8888-FEE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1599" y="-880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-15" value="1. 转账&lt;br&gt;3USD" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-15" value="1. 转账&lt;br&gt;3USD" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1530" y="-880" as="sourcePoint" />
             <mxPoint x="1590" y="-850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-16" value="数字币账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-16" value="数字币账户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="-1080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-17" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;余额买币&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-17" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;余额买币&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1529" y="-1150" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;充值&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;充值&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1175" y="-1150" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-37" value="8888-FINARO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-37" value="8888-FINARO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="-639.9999999999999" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-38" value="uid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-38" value="uid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="-639.9999999999999" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-39" value="转账&lt;br&gt;100 USDT" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-39" value="转账&lt;br&gt;100 USDT" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1460" y="-730" as="sourcePoint" />
             <mxPoint x="1460" y="-650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-42" value="8888-FEE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-42" value="8888-FEE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1239" y="-639.9999999999999" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-44" value="数字币账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-44" value="数字币账户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="-799.9999999999999" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-45" value="VISA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-45" value="VISA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="-799.9999999999999" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-46" value="1. 充值&lt;br&gt;100 USD" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-46" value="1. 充值&lt;br&gt;100 USD" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1099.57" y="-749.67" as="sourcePoint" />
             <mxPoint x="1100" y="-650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-48" value="1.1 转账&lt;br&gt;3USD" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-48" value="1.1 转账&lt;br&gt;3USD" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1170" y="-611.0000000000001" as="sourcePoint" />
             <mxPoint x="1230" y="-610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-49" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;快捷买币&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-49" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;快捷买币&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1241" y="-800" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-50" value="支付成功后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-50" value="支付成功后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1070" y="-1025" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-51" value="买币成功后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="-995" width="80" height="30" as="geometry" />
+        <mxCell id="U-sZDo2hqMyx_Hb8lPWC-51" value="划转就是买币" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="-995" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9D7TMS057LamAQ37dFig-1" value="支付成功后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1161" y="-720" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9D7TMS057LamAQ37dFig-2" value="划转就是买币" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="-720" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
