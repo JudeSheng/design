@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T10:37:23.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZP686F2i9sVPrtE7vA7i" version="20.8.17" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-09T10:03:07.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UDcFCDd05CcapNE9nIRj" version="20.8.17" type="github" pages="5">
   <diagram name="领域划分图 - 钱包" id="kpElmkjplSCEtDlpfAr3">
     <mxGraphModel dx="-1158" dy="-4" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1537,13 +1537,13 @@
           <mxGeometry x="-880" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sDGvimMJjxBXO6MdQ30m-46" value="上分 : 成功&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="0.002" width="50" height="50" relative="1" as="geometry">
+          <mxGeometry x="0.0047" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1030" y="270" as="sourcePoint" />
             <mxPoint x="-890.4300000000001" y="170" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sDGvimMJjxBXO6MdQ30m-47" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-size: 9.8pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;CAPTURED&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="sDGvimMJjxBXO6MdQ30m-47" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-size: 9.8pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;PAYIN_COMPLETED&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-880" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sDGvimMJjxBXO6MdQ30m-49" value="capture : 成功" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
@@ -1555,7 +1555,7 @@
         </mxCell>
         <mxCell id="sDGvimMJjxBXO6MdQ30m-50" value="上分&amp;nbsp;: 成功" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0068" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-820.14" y="450" as="sourcePoint" />
+            <mxPoint x="-821" y="420" as="sourcePoint" />
             <mxPoint x="-821" y="380" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1574,6 +1574,18 @@
         </mxCell>
         <mxCell id="sDGvimMJjxBXO6MdQ30m-55" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;AUTHORIZED&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-860" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDGvimMJjxBXO6MdQ30m-57" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;CAPTURED&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDGvimMJjxBXO6MdQ30m-58" value="FAILED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFDEDB;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sDGvimMJjxBXO6MdQ30m-59" value="void : 成功" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1170" y="489.38" as="sourcePoint" />
+            <mxPoint x="-1310" y="489.38" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
