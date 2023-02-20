@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T18:39:37.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Y42FVwl4tnruhzwBCz8k" version="20.8.17" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-20T18:46:28.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DGh-4OVLZtAE8Dgwbldk" version="20.8.17" type="github" pages="8">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
     <mxGraphModel dx="3160" dy="1769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2469,7 +2469,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fC_8OE0vO9uEgNQ-_EtL" name="FVBank">
-    <mxGraphModel dx="2193" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3434" dy="1447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2502,7 +2502,7 @@
             <mxPoint x="-41" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DWORkWgml8n1RMJRR-8V-26" value="kucoin Web / kucoin App" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+        <mxCell id="DWORkWgml8n1RMJRR-8V-26" value="kucoin Web / kucoin App" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="-520" y="240" width="760" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DWORkWgml8n1RMJRR-8V-32" value="payment-api" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
@@ -2689,7 +2689,7 @@
             <mxPoint x="110" y="594.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-64yw7IUoeCRHIudVm0k-22" value="FVBank" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="-64yw7IUoeCRHIudVm0k-22" value="FVBank" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="-520" y="920" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-64yw7IUoeCRHIudVm0k-23" value="9 限额" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;strokeColor=#FF0000;fontColor=#FF0000;" edge="1" parent="1">
@@ -2753,7 +2753,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-64yw7IUoeCRHIudVm0k-30" value="5 调用&lt;br&gt;渠道" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;strokeColor=#FF0000;fontColor=#FF0000;" edge="1" parent="1">
+        <mxCell id="-64yw7IUoeCRHIudVm0k-30" value="5 调用&lt;br&gt;渠道&lt;br&gt;查单" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;strokeColor=#FF0000;fontColor=#FF0000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-331" y="959.5" />
@@ -2850,42 +2850,11 @@
         <mxCell id="fvTayzOckmw0WgEOQcRo-6" value="channel-callback" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="600" y="760" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-7" value="查/绑&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;收款帐户+附言" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#00CC00;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="620" y="320" />
-              <mxPoint x="620" y="320" />
-            </Array>
-            <mxPoint x="620.03" y="307.80999999999995" as="sourcePoint" />
-            <mxPoint x="620.03" y="367.80999999999995" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-8" value="5.0 查询充值记录" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1079" y="320" />
-              <mxPoint x="1079" y="320" />
-            </Array>
-            <mxPoint x="1079" y="310" as="sourcePoint" />
-            <mxPoint x="1079" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-9" value="kucoin Web / kucoin App" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+        <mxCell id="fvTayzOckmw0WgEOQcRo-9" value="kucoin Web / kucoin App" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="600" y="240" width="760" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fvTayzOckmw0WgEOQcRo-10" value="payment-api" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="600" y="380" width="760" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-11" value="支付通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
-          <mxGeometry x="-0.1111" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="659.5" y="895" />
-              <mxPoint x="659.5" y="895" />
-            </Array>
-            <mxPoint x="660" y="912.5" as="sourcePoint" />
-            <mxPoint x="659.5" y="850" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="fvTayzOckmw0WgEOQcRo-12" value="payment-method" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="800" y="520" width="120" height="40" as="geometry" />
@@ -2896,146 +2865,17 @@
         <mxCell id="fvTayzOckmw0WgEOQcRo-14" value="payment-fiat" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1240" y="640" width="120" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-15" value="wallet-risk" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="fvTayzOckmw0WgEOQcRo-15" value="wallet-risk" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1080" y="920" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fvTayzOckmw0WgEOQcRo-16" value="payment-accounting" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="1240" y="575" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-17" value="限额" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;strokeColor=#00CC00;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="859.5" y="320" />
-              <mxPoint x="859.5" y="320" />
-            </Array>
-            <mxPoint x="859.5" y="310" as="sourcePoint" />
-            <mxPoint x="859.5" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-18" value="限额" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00CC00;strokeColor=#00CC00;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="859" y="480" />
-              <mxPoint x="859" y="480" />
-            </Array>
-            <mxPoint x="859.5" y="450" as="sourcePoint" />
-            <mxPoint x="859.5" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fvTayzOckmw0WgEOQcRo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fvTayzOckmw0WgEOQcRo-16" target="fvTayzOckmw0WgEOQcRo-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-20" value="查单" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
-          <mxGeometry x="-0.1111" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="880" y="895" />
-              <mxPoint x="880" y="895" />
-            </Array>
-            <mxPoint x="880" y="850" as="sourcePoint" />
-            <mxPoint x="880" y="910" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-21" value="通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;dashed=1;" edge="1" parent="1">
-          <mxGeometry x="-0.1" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1200" y="735" />
-              <mxPoint x="1200" y="735" />
-            </Array>
-            <mxPoint x="1200" y="750" as="sourcePoint" />
-            <mxPoint x="1200" y="690" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-22" value="通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;dashed=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1229" y="664" />
-              <mxPoint x="1229" y="664" />
-            </Array>
-            <mxPoint x="1230" y="664" as="sourcePoint" />
-            <mxPoint x="1170" y="664" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fvTayzOckmw0WgEOQcRo-23" value="user-management" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="600" y="640" width="320" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-24" value="confirm" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
-          <mxGeometry x="-0.1111" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1080" y="735" />
-              <mxPoint x="1080" y="735" />
-            </Array>
-            <mxPoint x="1080" y="690" as="sourcePoint" />
-            <mxPoint x="1080" y="750" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-25" value="双签" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
-          <mxGeometry x="-0.1111" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1120" y="895" />
-              <mxPoint x="1120" y="895" />
-            </Array>
-            <mxPoint x="1120" y="850" as="sourcePoint" />
-            <mxPoint x="1120" y="910" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-26" value="上分" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
-          <mxGeometry x="-0.1111" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1170" y="735" />
-              <mxPoint x="1170" y="735" />
-            </Array>
-            <mxPoint x="1170" y="750" as="sourcePoint" />
-            <mxPoint x="1170" y="690" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-27" value="查询收款人信息" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF0000;endSize=6;strokeColor=#FF0000;strokeWidth=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1">
-          <mxGeometry x="-0.1111" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="859.5" y="735" />
-              <mxPoint x="859.5" y="735" />
-            </Array>
-            <mxPoint x="860" y="752.5" as="sourcePoint" />
-            <mxPoint x="859.5" y="690" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-28" value="收款人信息&lt;br style=&quot;border-color: var(--border-color); font-family: Helvetica; font-size: 11px; font-weight: 400;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-weight: 400;&quot;&gt;发送邮件&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#00CC00;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="700" y="322.19" />
-              <mxPoint x="700" y="322.19" />
-            </Array>
-            <mxPoint x="700.03" y="310" as="sourcePoint" />
-            <mxPoint x="700.03" y="370" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-29" value="查/绑&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;收款帐户+附言&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;fontColor=#CCCCCC;" edge="1" parent="1">
-          <mxGeometry x="-0.5014" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="640" y="560" />
-              <mxPoint x="640" y="560" />
-            </Array>
-            <mxPoint as="offset" />
-            <mxPoint x="640" y="450" as="sourcePoint" />
-            <mxPoint x="640" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-30" value="收款人信息&lt;br style=&quot;border-color: var(--border-color); font-size: 11px; font-family: Helvetica; font-weight: 400;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 11px; font-family: Helvetica; font-weight: 400;&quot;&gt;发送邮件&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;fontColor=#CCCCCC;" edge="1" parent="1">
-          <mxGeometry x="-0.5014" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="719" y="560" />
-              <mxPoint x="719" y="560" />
-            </Array>
-            <mxPoint as="offset" />
-            <mxPoint x="719" y="450" as="sourcePoint" />
-            <mxPoint x="719" y="630" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="fvTayzOckmw0WgEOQcRo-31" value="payment-core" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="1000" y="520" width="160" height="160" as="geometry" />
@@ -3043,89 +2883,8 @@
         <mxCell id="fvTayzOckmw0WgEOQcRo-32" value="payment-risk-adaptor" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="1240" y="520" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-33" value="同名&lt;br&gt;校验" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1229" y="544" />
-              <mxPoint x="1229" y="544" />
-            </Array>
-            <mxPoint x="1170" y="544" as="sourcePoint" />
-            <mxPoint x="1230" y="544" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-34" value="USDC &lt;br&gt;划转" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1229" y="594.5" />
-              <mxPoint x="1229" y="594.5" />
-            </Array>
-            <mxPoint x="1170" y="594.5" as="sourcePoint" />
-            <mxPoint x="1230" y="594.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-35" value="FVBank" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="fvTayzOckmw0WgEOQcRo-35" value="FVBank" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;fontFamily=Comic Sans MS;sketch=1;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="600" y="920" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-36" value="限额" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="989" y="539.5" />
-              <mxPoint x="989" y="539.5" />
-            </Array>
-            <mxPoint x="990" y="539.5" as="sourcePoint" />
-            <mxPoint x="930" y="539.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-37" value="用户&lt;br&gt;通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="989" y="590" />
-              <mxPoint x="989" y="590" />
-            </Array>
-            <mxPoint x="990" y="590" as="sourcePoint" />
-            <mxPoint x="930" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-38" value="发邮件" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="989" y="615" />
-              <mxPoint x="989" y="615" />
-            </Array>
-            <mxPoint x="990" y="615" as="sourcePoint" />
-            <mxPoint x="930" y="615" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-39" value="发邮件" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="989" y="659.5" />
-              <mxPoint x="989" y="659.5" />
-            </Array>
-            <mxPoint x="930" y="659.5" as="sourcePoint" />
-            <mxPoint x="990" y="659.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-40" value="通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;dashed=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1229" y="780" />
-              <mxPoint x="1229" y="780" />
-            </Array>
-            <mxPoint x="1170" y="780" as="sourcePoint" />
-            <mxPoint x="1230" y="780" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-41" value="上分" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1229" y="820" />
-              <mxPoint x="1229" y="820" />
-            </Array>
-            <mxPoint x="1170" y="820" as="sourcePoint" />
-            <mxPoint x="1230" y="820" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="fvTayzOckmw0WgEOQcRo-42" value="调用&lt;br&gt;渠道" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -3136,27 +2895,6 @@
             <mxPoint x="790" y="959.5" as="sourcePoint" />
             <mxPoint x="730" y="959.5" as="targetPoint" />
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-43" value="支付&lt;br&gt;通知" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="789" y="799.5" />
-              <mxPoint x="789" y="799.5" />
-            </Array>
-            <mxPoint x="730" y="799.5" as="sourcePoint" />
-            <mxPoint x="790" y="799.5" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fvTayzOckmw0WgEOQcRo-44" value="5.0 查询充值记录" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fontSize=12;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1080" y="460" />
-              <mxPoint x="1080" y="460" />
-            </Array>
-            <mxPoint x="1080" y="450" as="sourcePoint" />
-            <mxPoint x="1080" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fvTayzOckmw0WgEOQcRo-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/edit-alt-128.png;fillStyle=solid;fontColor=#999999;" vertex="1" parent="1">
