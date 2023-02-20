@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T18:34:21.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="E-zKUo-CG8teKl0LnCJL" version="20.8.17" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-20T18:39:37.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Y42FVwl4tnruhzwBCz8k" version="20.8.17" type="github" pages="8">
   <diagram name="支付架构" id="I4MWaN9tkbP1mtl7jx4q">
     <mxGraphModel dx="3160" dy="1769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3158,6 +3158,24 @@
             <mxPoint x="1080" y="450" as="sourcePoint" />
             <mxPoint x="1080" y="510" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fvTayzOckmw0WgEOQcRo-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/edit-alt-128.png;fillStyle=solid;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="760" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fvTayzOckmw0WgEOQcRo-46" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/edit-alt-128.png;fillStyle=solid;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="920" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fvTayzOckmw0WgEOQcRo-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/edit-alt-128.png;fillStyle=solid;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="760" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fvTayzOckmw0WgEOQcRo-48" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/edit-alt-128.png;fillStyle=solid;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="520" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fvTayzOckmw0WgEOQcRo-49" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/edit-alt-128.png;fillStyle=solid;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="380" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fvTayzOckmw0WgEOQcRo-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/edit-alt-128.png;fillStyle=solid;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="640" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
